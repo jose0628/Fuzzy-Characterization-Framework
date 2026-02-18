@@ -1,0 +1,10 @@
+# Data files
+*.csv
+*.json
+*.xlsx
+
+# IntelliJ / PyCharm
+.idea/
+
+# Optional: ignore all contents inside .idea explicitly
+.idea/*
