@@ -45,7 +45,7 @@ def parse_counts_cell(x):
 
 
 def main():
-    parser = argparse.ArgumentParser("Bulk Edit Users")
+    parser = argparse.ArgumentParser("ETL Parser for event_type_counts column")
     parser.add_argument(
         "input_csv",
         type=str,
