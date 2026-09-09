@@ -26,7 +26,7 @@ segments, without ever reading message content or personal identifiers:
 |---|---|
 | `src/fuzzy_characterization/` | The package (see [Architecture](#architecture)) |
 | `configs/` | YAML configurations: membership functions, fuzzy rules, retail case |
-| `data/synthetic/` | Coherent synthetic demo data shaped like the retail case (`data/README.md`) |
+| `data/sample/` | Coherent sample demo data shaped like the retail case (`data/README.md`) |
 | `tests/` | pytest suite (membership functions, alpha-cuts, engine, rules, clustering, evaluation, pipeline) |
 | `docs/thesis_mapping.md` | Table linking every thesis element to its implementation |
 | `legacy/` | The original exploratory scripts, kept for reference (`legacy/README.md`) |
@@ -44,8 +44,8 @@ pip install -e ".[dev]"          # package + CLI (`fcf`) + pytest / kneed
 ## Quick start
 
 ```bash
-# 1. (optional) regenerate the synthetic demo data
-fcf generate-data --out data/synthetic --n-users 400 --days 42 --seed 7
+# 1. (optional) regenerate the sample demo data
+fcf generate-data --out data/sample --n-users 400 --days 42 --seed 7
 
 # 2. run the complete framework on the retail-case configuration
 fcf run --config configs/retail_case.yaml
@@ -134,7 +134,7 @@ res.result.memberships          # FCM membership matrix (users x k)
    archetypes of the thesis (high communicators, reactive consumers,
    operational browsers, low-engagement users), and quantify overlaps.
 
-## Results on the synthetic data
+## Results on the sample data
 
 `fcf run --config configs/retail_case.yaml` on the shipped demo data (400
 users, 42 days, 387 with consent) retains 8 principal components (90 % of the
@@ -157,7 +157,7 @@ recovers the four planted archetypes:
 | AHC (Ward) | full | 0.24 (silhouette) | 0.73 | 0.20 | Low |
 
 The interpretability score here lacks its semantic-consistency component
-(no expert ratings are supplied for synthetic data). Absolute values are
+(no expert ratings are supplied for sample data). Absolute values are
 specific to the demo data and are not those of the thesis' retail case.
 
 ## Configuration
@@ -215,7 +215,7 @@ src/fuzzy_characterization/
 ├── config.py            PipelineConfig dataclasses + YAML loading (with includes)
 ├── pipeline.py          run_pipeline(): orchestration and artefact writing
 ├── cli.py               `fcf` command line
-├── data/                schema, loaders, synthetic generator, behavioural indicators
+├── data/                schema, loaders, sample generator, behavioural indicators
 ├── heuristics/          hierarchy score, stream permissions, post engagement/similarity
 ├── compliance/          pseudonymisation, consent, generalisation, compliance checks
 ├── fuzzification/       membership functions, alpha-cuts, engine, fuzzy rule layer
@@ -257,7 +257,7 @@ The suite checks the membership-function equations against the thesis
 examples, alpha-cut nesting, the engine and the rule layer, that every
 clustering method recovers planted clusters, the validity/stability/
 interpretability/privacy metrics, and that the full pipeline recovers the
-four archetypes planted in the synthetic data.
+four archetypes planted in the sample data.
 
 ## Privacy notes
 

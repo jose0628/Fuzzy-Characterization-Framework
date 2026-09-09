@@ -1,11 +1,11 @@
 # Retail case (Chapter "Framework Implementation and Evaluation"), run on the
-# synthetic demo data shipped with the repository.
+# sample demo data shipped with the repository.
 include:
   - membership_functions.yaml
   - fuzzy_rules.yaml
 
 data:
-  root: data/synthetic
+  root: data/sample
   users_file: users.csv
   events_file: api_events.csv          # api_events.csv.gz is picked up automatically
   posts_file: posts.csv

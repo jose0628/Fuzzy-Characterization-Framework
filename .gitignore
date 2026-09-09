@@ -5,9 +5,9 @@
 data/raw/*
 !data/raw/.gitkeep
 
-# Synthetic demo datasets are tracked on purpose
-!data/synthetic/*.csv
-!data/synthetic/*.json
+# Sample demo datasets are tracked on purpose
+!data/sample/*.csv
+!data/sample/*.json
 
 # Pipeline outputs
 outputs/

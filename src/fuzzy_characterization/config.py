@@ -21,7 +21,7 @@ import yaml
 class DataConfig:
     """Where the source datasets live and how the observation period is defined."""
 
-    root: str = "data/synthetic"
+    root: str = "data/sample"
     users_file: str = "users.csv"
     events_file: str = "api_events.csv"
     posts_file: str = "posts.csv"

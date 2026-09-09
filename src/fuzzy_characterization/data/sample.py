@@ -1,4 +1,4 @@
-"""Synthetic, privacy-safe demo data shaped like the retail case.
+"""Sample, privacy-safe demo data shaped like the retail case.
 
 The generator draws users from four latent behavioural archetypes whose
 monthly activity rates mirror Table "Average behavioural feature values per
@@ -95,7 +95,7 @@ REACTION_TYPES = ["like", "celebrate", "support", "insightful"]
 
 
 @dataclass
-class SyntheticOptions:
+class SampleOptions:
     n_users: int = 400
     days: int = 42
     start: str = "2025-03-03"
@@ -137,9 +137,9 @@ def _sample_hours(rng: np.random.Generator, n: int, pattern: str, working_share:
     return np.mod(hours, 24.0)
 
 
-def generate_synthetic_datasets(options: Optional[SyntheticOptions] = None) -> Dict[str, pd.DataFrame]:
+def generate_sample_datasets(options: Optional[SampleOptions] = None) -> Dict[str, pd.DataFrame]:
     """Generate every table of the case. Returns a dict of data frames."""
-    opt = options or SyntheticOptions()
+    opt = options or SampleOptions()
     rng = np.random.default_rng(opt.seed)
     start = pd.Timestamp(opt.start)
     months = opt.days / 30.4375
@@ -372,15 +372,15 @@ def generate_synthetic_datasets(options: Optional[SyntheticOptions] = None) -> D
     }
 
 
-def write_synthetic_datasets(
+def write_sample_datasets(
     out_dir: str | Path,
-    options: Optional[SyntheticOptions] = None,
+    options: Optional[SampleOptions] = None,
     compress_events: bool = True,
 ) -> Dict[str, Path]:
     """Generate and write the tables to ``out_dir``; returns the file paths."""
     out = Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
-    tables = generate_synthetic_datasets(options)
+    tables = generate_sample_datasets(options)
     paths: Dict[str, Path] = {}
     for name, df in tables.items():
         if name == "api_events" and compress_events:

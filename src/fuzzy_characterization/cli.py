@@ -24,10 +24,10 @@ def _cfg(args):
 
 
 def cmd_generate_data(args) -> int:
-    from .data.synthetic import SyntheticOptions, write_synthetic_datasets
+    from .data.sample import SampleOptions, write_sample_datasets
 
-    opt = SyntheticOptions(n_users=args.n_users, days=args.days, seed=args.seed, start=args.start)
-    paths = write_synthetic_datasets(args.out, opt, compress_events=not args.no_compress)
+    opt = SampleOptions(n_users=args.n_users, days=args.days, seed=args.seed, start=args.start)
+    paths = write_sample_datasets(args.out, opt, compress_events=not args.no_compress)
     for name, p in paths.items():
         print(f"{name:26s} -> {p}")
     return 0
@@ -137,8 +137,8 @@ def build_parser() -> argparse.ArgumentParser:
         sp.add_argument("--no-write", action="store_true", help="do not write artefacts")
         sp.add_argument("--quiet", "-q", action="store_true")
 
-    g = sub.add_parser("generate-data", help="generate the synthetic demo datasets")
-    g.add_argument("--out", default="data/synthetic")
+    g = sub.add_parser("generate-data", help="generate the sample demo datasets")
+    g.add_argument("--out", default="data/sample")
     g.add_argument("--n-users", type=int, default=400)
     g.add_argument("--days", type=int, default=42)
     g.add_argument("--seed", type=int, default=7)

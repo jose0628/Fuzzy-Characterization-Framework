@@ -12,8 +12,8 @@ from fuzzy_characterization.pipeline import run_pipeline
 from fuzzy_characterization.profiling import label_archetypes
 
 
-def test_synthetic_tables_are_coherent(synthetic_tables):
-    t = synthetic_tables
+def test_sample_tables_are_coherent(sample_tables):
+    t = sample_tables
     users = set(t["users"]["user_id"])
     assert set(t["api_events"]["user_id"]) <= users
     assert set(t["posts"]["author_id"]) <= users
@@ -79,17 +79,17 @@ def test_indicators_and_heuristics(datasets):
     assert (heur["accessible_streams"] >= datasets.streams["restricted"].eq(0).sum()).all()
 
 
-def test_full_pipeline_recovers_archetypes(quick_config, datasets, synthetic_tables):
+def test_full_pipeline_recovers_archetypes(quick_config, datasets, sample_tables):
     res = run_pipeline(quick_config, data=datasets, k=4, write=True, verbose=False)
     assert res.k == 4 and res.result.memberships.shape[1] == 4
     assert res.fuzzification.n_features >= 20
     assert res.compliance["level"] == "High"
     assert set(res.comparison["method"]) == {"fcm", "kmeans"}
     assert (res.output_dir / "report.md").exists() and (res.output_dir / "user_memberships.csv").exists()
-    # archetype labels are unique and match the synthetic ground truth reasonably
+    # archetype labels are unique and match the sample ground truth reasonably
     labels = res.profiles["labels"]
     assert labels["archetype"].is_unique
-    gt = synthetic_tables["ground_truth_archetypes"].copy()
+    gt = sample_tables["ground_truth_archetypes"].copy()
     ps = Pseudonymiser(quick_config.compliance.pseudonym_salt)
     gt["pid"] = gt["user_id"].map(ps.pseudonym)
     gt = gt.set_index("pid").reindex(res.indicators.index)

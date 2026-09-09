@@ -3,18 +3,18 @@ import pandas as pd
 import pytest
 
 from fuzzy_characterization.config import load_config
-from fuzzy_characterization.data.synthetic import SyntheticOptions, generate_synthetic_datasets
+from fuzzy_characterization.data.sample import SampleOptions, generate_sample_datasets
 from fuzzy_characterization.data.schema import Datasets
 
 
 @pytest.fixture(scope="session")
-def synthetic_tables():
-    return generate_synthetic_datasets(SyntheticOptions(n_users=150, days=21, seed=3))
+def sample_tables():
+    return generate_sample_datasets(SampleOptions(n_users=150, days=21, seed=3))
 
 
 @pytest.fixture(scope="session")
-def datasets(synthetic_tables) -> Datasets:
-    t = synthetic_tables
+def datasets(sample_tables) -> Datasets:
+    t = sample_tables
     ev = t["api_events"].copy()
     ev["timestamp"] = pd.to_datetime(ev["timestamp"])
     return Datasets(
