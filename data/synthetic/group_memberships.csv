@@ -1,0 +1,1208 @@
+user_id,group_id,group_name
+u00000,g_dep_4,Human Resources
+u00000,g_div_0,Europe Retail
+u00000,g_int_3,Interest group 4
+u00000,g_int_0,Interest group 1
+u00001,g_dep_0,Store Operations
+u00001,g_div_0,Europe Retail
+u00002,g_dep_2,Logistics
+u00002,g_div_0,Europe Retail
+u00003,g_dep_5,Management
+u00003,g_div_0,Europe Retail
+u00003,g_int_0,Interest group 1
+u00003,g_int_2,Interest group 3
+u00004,g_dep_1,Customer Service
+u00004,g_div_0,Europe Retail
+u00004,g_int_1,Interest group 2
+u00004,g_int_2,Interest group 3
+u00005,g_dep_0,Store Operations
+u00005,g_div_0,Europe Retail
+u00005,g_int_3,Interest group 4
+u00005,g_int_4,Interest group 5
+u00006,g_dep_2,Logistics
+u00006,g_div_0,Europe Retail
+u00006,g_int_3,Interest group 4
+u00006,g_int_2,Interest group 3
+u00007,g_dep_2,Logistics
+u00007,g_div_0,Europe Retail
+u00007,g_int_0,Interest group 1
+u00007,g_int_1,Interest group 2
+u00008,g_dep_3,Communications
+u00008,g_div_0,Europe Retail
+u00008,g_int_0,Interest group 1
+u00009,g_dep_1,Customer Service
+u00009,g_div_1,US Retail
+u00009,g_int_2,Interest group 3
+u00010,g_dep_0,Store Operations
+u00010,g_div_0,Europe Retail
+u00011,g_dep_0,Store Operations
+u00011,g_div_0,Europe Retail
+u00012,g_dep_0,Store Operations
+u00012,g_div_0,Europe Retail
+u00012,g_int_1,Interest group 2
+u00013,g_dep_0,Store Operations
+u00013,g_div_0,Europe Retail
+u00013,g_int_5,Interest group 6
+u00013,g_int_1,Interest group 2
+u00014,g_dep_0,Store Operations
+u00014,g_div_0,Europe Retail
+u00014,g_int_1,Interest group 2
+u00015,g_dep_1,Customer Service
+u00015,g_div_0,Europe Retail
+u00015,g_int_3,Interest group 4
+u00015,g_int_2,Interest group 3
+u00016,g_dep_2,Logistics
+u00016,g_div_0,Europe Retail
+u00017,g_dep_1,Customer Service
+u00017,g_div_0,Europe Retail
+u00018,g_dep_0,Store Operations
+u00018,g_div_0,Europe Retail
+u00018,g_int_0,Interest group 1
+u00019,g_dep_0,Store Operations
+u00019,g_div_0,Europe Retail
+u00019,g_int_0,Interest group 1
+u00020,g_dep_0,Store Operations
+u00020,g_div_0,Europe Retail
+u00020,g_int_3,Interest group 4
+u00020,g_int_5,Interest group 6
+u00021,g_dep_1,Customer Service
+u00021,g_div_0,Europe Retail
+u00021,g_int_1,Interest group 2
+u00021,g_int_2,Interest group 3
+u00022,g_dep_2,Logistics
+u00022,g_div_0,Europe Retail
+u00022,g_int_1,Interest group 2
+u00022,g_int_4,Interest group 5
+u00023,g_dep_0,Store Operations
+u00023,g_div_0,Europe Retail
+u00024,g_dep_0,Store Operations
+u00024,g_div_0,Europe Retail
+u00025,g_dep_1,Customer Service
+u00025,g_div_1,US Retail
+u00025,g_int_2,Interest group 3
+u00026,g_dep_1,Customer Service
+u00026,g_div_0,Europe Retail
+u00026,g_int_3,Interest group 4
+u00026,g_int_2,Interest group 3
+u00027,g_dep_1,Customer Service
+u00027,g_div_0,Europe Retail
+u00027,g_int_2,Interest group 3
+u00027,g_int_1,Interest group 2
+u00028,g_dep_1,Customer Service
+u00028,g_div_0,Europe Retail
+u00028,g_int_2,Interest group 3
+u00029,g_dep_2,Logistics
+u00029,g_div_0,Europe Retail
+u00029,g_int_1,Interest group 2
+u00030,g_dep_0,Store Operations
+u00030,g_div_0,Europe Retail
+u00031,g_dep_0,Store Operations
+u00031,g_div_0,Europe Retail
+u00032,g_dep_1,Customer Service
+u00032,g_div_0,Europe Retail
+u00032,g_int_1,Interest group 2
+u00032,g_int_2,Interest group 3
+u00033,g_dep_3,Communications
+u00033,g_div_1,US Retail
+u00033,g_int_1,Interest group 2
+u00034,g_dep_2,Logistics
+u00034,g_div_0,Europe Retail
+u00034,g_int_4,Interest group 5
+u00034,g_int_5,Interest group 6
+u00035,g_dep_1,Customer Service
+u00035,g_div_0,Europe Retail
+u00036,g_dep_1,Customer Service
+u00036,g_div_0,Europe Retail
+u00036,g_int_0,Interest group 1
+u00037,g_dep_1,Customer Service
+u00037,g_div_0,Europe Retail
+u00038,g_dep_2,Logistics
+u00038,g_div_0,Europe Retail
+u00038,g_int_3,Interest group 4
+u00038,g_int_0,Interest group 1
+u00039,g_dep_0,Store Operations
+u00039,g_div_0,Europe Retail
+u00040,g_dep_0,Store Operations
+u00040,g_div_0,Europe Retail
+u00040,g_int_5,Interest group 6
+u00040,g_int_0,Interest group 1
+u00041,g_dep_2,Logistics
+u00041,g_div_0,Europe Retail
+u00041,g_int_0,Interest group 1
+u00041,g_int_5,Interest group 6
+u00042,g_dep_0,Store Operations
+u00042,g_div_0,Europe Retail
+u00042,g_int_1,Interest group 2
+u00042,g_int_2,Interest group 3
+u00043,g_dep_0,Store Operations
+u00043,g_div_0,Europe Retail
+u00044,g_dep_2,Logistics
+u00044,g_div_0,Europe Retail
+u00044,g_int_2,Interest group 3
+u00044,g_int_3,Interest group 4
+u00045,g_dep_0,Store Operations
+u00045,g_div_0,Europe Retail
+u00045,g_int_4,Interest group 5
+u00045,g_int_3,Interest group 4
+u00046,g_dep_4,Human Resources
+u00046,g_div_0,Europe Retail
+u00047,g_dep_0,Store Operations
+u00047,g_div_0,Europe Retail
+u00047,g_int_2,Interest group 3
+u00048,g_dep_4,Human Resources
+u00048,g_div_0,Europe Retail
+u00048,g_int_0,Interest group 1
+u00049,g_dep_0,Store Operations
+u00049,g_div_1,US Retail
+u00049,g_int_0,Interest group 1
+u00050,g_dep_0,Store Operations
+u00050,g_div_0,Europe Retail
+u00051,g_dep_0,Store Operations
+u00051,g_div_0,Europe Retail
+u00051,g_int_5,Interest group 6
+u00051,g_int_4,Interest group 5
+u00052,g_dep_0,Store Operations
+u00052,g_div_0,Europe Retail
+u00052,g_int_0,Interest group 1
+u00052,g_int_5,Interest group 6
+u00053,g_dep_1,Customer Service
+u00053,g_div_0,Europe Retail
+u00053,g_int_0,Interest group 1
+u00054,g_dep_5,Management
+u00054,g_div_0,Europe Retail
+u00054,g_int_4,Interest group 5
+u00054,g_int_2,Interest group 3
+u00055,g_dep_1,Customer Service
+u00055,g_div_0,Europe Retail
+u00055,g_int_5,Interest group 6
+u00056,g_dep_0,Store Operations
+u00056,g_div_0,Europe Retail
+u00056,g_int_3,Interest group 4
+u00056,g_int_0,Interest group 1
+u00057,g_dep_0,Store Operations
+u00057,g_div_0,Europe Retail
+u00057,g_int_4,Interest group 5
+u00058,g_dep_0,Store Operations
+u00058,g_div_0,Europe Retail
+u00059,g_dep_2,Logistics
+u00059,g_div_0,Europe Retail
+u00060,g_dep_1,Customer Service
+u00060,g_div_0,Europe Retail
+u00060,g_int_2,Interest group 3
+u00061,g_dep_2,Logistics
+u00061,g_div_0,Europe Retail
+u00061,g_int_0,Interest group 1
+u00062,g_dep_0,Store Operations
+u00062,g_div_1,US Retail
+u00062,g_int_3,Interest group 4
+u00063,g_dep_4,Human Resources
+u00063,g_div_1,US Retail
+u00063,g_int_5,Interest group 6
+u00063,g_int_0,Interest group 1
+u00064,g_dep_5,Management
+u00064,g_div_0,Europe Retail
+u00064,g_int_0,Interest group 1
+u00064,g_int_4,Interest group 5
+u00065,g_dep_5,Management
+u00065,g_div_1,US Retail
+u00065,g_int_3,Interest group 4
+u00066,g_dep_1,Customer Service
+u00066,g_div_0,Europe Retail
+u00067,g_dep_1,Customer Service
+u00067,g_div_1,US Retail
+u00068,g_dep_1,Customer Service
+u00068,g_div_0,Europe Retail
+u00068,g_int_4,Interest group 5
+u00068,g_int_0,Interest group 1
+u00069,g_dep_0,Store Operations
+u00069,g_div_1,US Retail
+u00069,g_int_4,Interest group 5
+u00070,g_dep_1,Customer Service
+u00070,g_div_0,Europe Retail
+u00070,g_int_5,Interest group 6
+u00071,g_dep_5,Management
+u00071,g_div_0,Europe Retail
+u00072,g_dep_3,Communications
+u00072,g_div_0,Europe Retail
+u00073,g_dep_0,Store Operations
+u00073,g_div_0,Europe Retail
+u00074,g_dep_1,Customer Service
+u00074,g_div_0,Europe Retail
+u00075,g_dep_0,Store Operations
+u00075,g_div_1,US Retail
+u00075,g_int_2,Interest group 3
+u00075,g_int_5,Interest group 6
+u00076,g_dep_0,Store Operations
+u00076,g_div_0,Europe Retail
+u00076,g_int_4,Interest group 5
+u00077,g_dep_0,Store Operations
+u00077,g_div_0,Europe Retail
+u00077,g_int_5,Interest group 6
+u00078,g_dep_1,Customer Service
+u00078,g_div_0,Europe Retail
+u00078,g_int_3,Interest group 4
+u00078,g_int_2,Interest group 3
+u00079,g_dep_2,Logistics
+u00079,g_div_0,Europe Retail
+u00079,g_int_0,Interest group 1
+u00080,g_dep_1,Customer Service
+u00080,g_div_0,Europe Retail
+u00080,g_int_0,Interest group 1
+u00081,g_dep_1,Customer Service
+u00081,g_div_0,Europe Retail
+u00081,g_int_5,Interest group 6
+u00081,g_int_4,Interest group 5
+u00082,g_dep_0,Store Operations
+u00082,g_div_0,Europe Retail
+u00082,g_int_3,Interest group 4
+u00083,g_dep_0,Store Operations
+u00083,g_div_1,US Retail
+u00083,g_int_2,Interest group 3
+u00084,g_dep_2,Logistics
+u00084,g_div_0,Europe Retail
+u00085,g_dep_1,Customer Service
+u00085,g_div_0,Europe Retail
+u00086,g_dep_2,Logistics
+u00086,g_div_0,Europe Retail
+u00087,g_dep_0,Store Operations
+u00087,g_div_0,Europe Retail
+u00088,g_dep_0,Store Operations
+u00088,g_div_0,Europe Retail
+u00088,g_int_2,Interest group 3
+u00088,g_int_1,Interest group 2
+u00089,g_dep_3,Communications
+u00089,g_div_0,Europe Retail
+u00089,g_int_4,Interest group 5
+u00090,g_dep_5,Management
+u00090,g_div_0,Europe Retail
+u00090,g_int_0,Interest group 1
+u00090,g_int_1,Interest group 2
+u00091,g_dep_0,Store Operations
+u00091,g_div_0,Europe Retail
+u00091,g_int_3,Interest group 4
+u00091,g_int_1,Interest group 2
+u00092,g_dep_1,Customer Service
+u00092,g_div_0,Europe Retail
+u00092,g_int_5,Interest group 6
+u00093,g_dep_0,Store Operations
+u00093,g_div_1,US Retail
+u00093,g_int_1,Interest group 2
+u00093,g_int_4,Interest group 5
+u00094,g_dep_4,Human Resources
+u00094,g_div_0,Europe Retail
+u00094,g_int_3,Interest group 4
+u00094,g_int_4,Interest group 5
+u00095,g_dep_1,Customer Service
+u00095,g_div_0,Europe Retail
+u00095,g_int_5,Interest group 6
+u00096,g_dep_0,Store Operations
+u00096,g_div_0,Europe Retail
+u00097,g_dep_5,Management
+u00097,g_div_0,Europe Retail
+u00098,g_dep_1,Customer Service
+u00098,g_div_1,US Retail
+u00099,g_dep_1,Customer Service
+u00099,g_div_1,US Retail
+u00099,g_int_2,Interest group 3
+u00099,g_int_3,Interest group 4
+u00100,g_dep_4,Human Resources
+u00100,g_div_0,Europe Retail
+u00100,g_int_1,Interest group 2
+u00100,g_int_4,Interest group 5
+u00101,g_dep_0,Store Operations
+u00101,g_div_0,Europe Retail
+u00101,g_int_2,Interest group 3
+u00101,g_int_3,Interest group 4
+u00102,g_dep_0,Store Operations
+u00102,g_div_0,Europe Retail
+u00102,g_int_3,Interest group 4
+u00103,g_dep_0,Store Operations
+u00103,g_div_0,Europe Retail
+u00104,g_dep_0,Store Operations
+u00104,g_div_1,US Retail
+u00104,g_int_1,Interest group 2
+u00104,g_int_5,Interest group 6
+u00105,g_dep_1,Customer Service
+u00105,g_div_0,Europe Retail
+u00105,g_int_4,Interest group 5
+u00105,g_int_3,Interest group 4
+u00106,g_dep_0,Store Operations
+u00106,g_div_0,Europe Retail
+u00106,g_int_0,Interest group 1
+u00107,g_dep_0,Store Operations
+u00107,g_div_0,Europe Retail
+u00107,g_int_4,Interest group 5
+u00108,g_dep_0,Store Operations
+u00108,g_div_1,US Retail
+u00108,g_int_3,Interest group 4
+u00109,g_dep_1,Customer Service
+u00109,g_div_0,Europe Retail
+u00109,g_int_2,Interest group 3
+u00109,g_int_1,Interest group 2
+u00110,g_dep_0,Store Operations
+u00110,g_div_0,Europe Retail
+u00111,g_dep_3,Communications
+u00111,g_div_1,US Retail
+u00111,g_int_3,Interest group 4
+u00112,g_dep_0,Store Operations
+u00112,g_div_0,Europe Retail
+u00112,g_int_5,Interest group 6
+u00113,g_dep_1,Customer Service
+u00113,g_div_0,Europe Retail
+u00113,g_int_4,Interest group 5
+u00113,g_int_3,Interest group 4
+u00114,g_dep_1,Customer Service
+u00114,g_div_0,Europe Retail
+u00115,g_dep_0,Store Operations
+u00115,g_div_0,Europe Retail
+u00115,g_int_2,Interest group 3
+u00116,g_dep_0,Store Operations
+u00116,g_div_0,Europe Retail
+u00116,g_int_5,Interest group 6
+u00116,g_int_3,Interest group 4
+u00117,g_dep_5,Management
+u00117,g_div_0,Europe Retail
+u00117,g_int_4,Interest group 5
+u00117,g_int_2,Interest group 3
+u00118,g_dep_0,Store Operations
+u00118,g_div_0,Europe Retail
+u00118,g_int_3,Interest group 4
+u00118,g_int_5,Interest group 6
+u00119,g_dep_2,Logistics
+u00119,g_div_0,Europe Retail
+u00119,g_int_0,Interest group 1
+u00120,g_dep_0,Store Operations
+u00120,g_div_0,Europe Retail
+u00120,g_int_3,Interest group 4
+u00120,g_int_1,Interest group 2
+u00121,g_dep_0,Store Operations
+u00121,g_div_0,Europe Retail
+u00122,g_dep_1,Customer Service
+u00122,g_div_0,Europe Retail
+u00122,g_int_3,Interest group 4
+u00122,g_int_2,Interest group 3
+u00123,g_dep_1,Customer Service
+u00123,g_div_0,Europe Retail
+u00123,g_int_5,Interest group 6
+u00123,g_int_2,Interest group 3
+u00124,g_dep_2,Logistics
+u00124,g_div_0,Europe Retail
+u00124,g_int_2,Interest group 3
+u00125,g_dep_0,Store Operations
+u00125,g_div_0,Europe Retail
+u00125,g_int_2,Interest group 3
+u00125,g_int_3,Interest group 4
+u00126,g_dep_0,Store Operations
+u00126,g_div_0,Europe Retail
+u00126,g_int_0,Interest group 1
+u00126,g_int_3,Interest group 4
+u00127,g_dep_5,Management
+u00127,g_div_0,Europe Retail
+u00127,g_int_5,Interest group 6
+u00128,g_dep_0,Store Operations
+u00128,g_div_1,US Retail
+u00128,g_int_4,Interest group 5
+u00128,g_int_2,Interest group 3
+u00129,g_dep_0,Store Operations
+u00129,g_div_0,Europe Retail
+u00129,g_int_4,Interest group 5
+u00130,g_dep_0,Store Operations
+u00130,g_div_0,Europe Retail
+u00130,g_int_3,Interest group 4
+u00131,g_dep_0,Store Operations
+u00131,g_div_0,Europe Retail
+u00132,g_dep_1,Customer Service
+u00132,g_div_0,Europe Retail
+u00132,g_int_5,Interest group 6
+u00133,g_dep_1,Customer Service
+u00133,g_div_1,US Retail
+u00133,g_int_1,Interest group 2
+u00133,g_int_5,Interest group 6
+u00134,g_dep_3,Communications
+u00134,g_div_0,Europe Retail
+u00135,g_dep_1,Customer Service
+u00135,g_div_1,US Retail
+u00135,g_int_3,Interest group 4
+u00135,g_int_5,Interest group 6
+u00136,g_dep_1,Customer Service
+u00136,g_div_0,Europe Retail
+u00136,g_int_2,Interest group 3
+u00136,g_int_4,Interest group 5
+u00137,g_dep_0,Store Operations
+u00137,g_div_0,Europe Retail
+u00138,g_dep_2,Logistics
+u00138,g_div_0,Europe Retail
+u00138,g_int_5,Interest group 6
+u00139,g_dep_0,Store Operations
+u00139,g_div_0,Europe Retail
+u00140,g_dep_3,Communications
+u00140,g_div_0,Europe Retail
+u00141,g_dep_0,Store Operations
+u00141,g_div_0,Europe Retail
+u00142,g_dep_1,Customer Service
+u00142,g_div_0,Europe Retail
+u00143,g_dep_0,Store Operations
+u00143,g_div_0,Europe Retail
+u00144,g_dep_1,Customer Service
+u00144,g_div_0,Europe Retail
+u00144,g_int_2,Interest group 3
+u00144,g_int_5,Interest group 6
+u00145,g_dep_0,Store Operations
+u00145,g_div_0,Europe Retail
+u00146,g_dep_2,Logistics
+u00146,g_div_0,Europe Retail
+u00147,g_dep_0,Store Operations
+u00147,g_div_0,Europe Retail
+u00147,g_int_0,Interest group 1
+u00147,g_int_5,Interest group 6
+u00148,g_dep_2,Logistics
+u00148,g_div_0,Europe Retail
+u00148,g_int_3,Interest group 4
+u00148,g_int_1,Interest group 2
+u00149,g_dep_0,Store Operations
+u00149,g_div_0,Europe Retail
+u00150,g_dep_2,Logistics
+u00150,g_div_0,Europe Retail
+u00150,g_int_3,Interest group 4
+u00150,g_int_0,Interest group 1
+u00151,g_dep_0,Store Operations
+u00151,g_div_0,Europe Retail
+u00151,g_int_1,Interest group 2
+u00152,g_dep_0,Store Operations
+u00152,g_div_0,Europe Retail
+u00152,g_int_4,Interest group 5
+u00152,g_int_1,Interest group 2
+u00153,g_dep_0,Store Operations
+u00153,g_div_0,Europe Retail
+u00153,g_int_3,Interest group 4
+u00153,g_int_5,Interest group 6
+u00154,g_dep_1,Customer Service
+u00154,g_div_0,Europe Retail
+u00155,g_dep_0,Store Operations
+u00155,g_div_1,US Retail
+u00156,g_dep_3,Communications
+u00156,g_div_0,Europe Retail
+u00157,g_dep_0,Store Operations
+u00157,g_div_0,Europe Retail
+u00157,g_int_3,Interest group 4
+u00158,g_dep_0,Store Operations
+u00158,g_div_0,Europe Retail
+u00158,g_int_3,Interest group 4
+u00159,g_dep_0,Store Operations
+u00159,g_div_0,Europe Retail
+u00159,g_int_0,Interest group 1
+u00159,g_int_1,Interest group 2
+u00160,g_dep_5,Management
+u00160,g_div_0,Europe Retail
+u00160,g_int_5,Interest group 6
+u00160,g_int_1,Interest group 2
+u00161,g_dep_0,Store Operations
+u00161,g_div_1,US Retail
+u00161,g_int_2,Interest group 3
+u00162,g_dep_4,Human Resources
+u00162,g_div_1,US Retail
+u00162,g_int_2,Interest group 3
+u00163,g_dep_0,Store Operations
+u00163,g_div_1,US Retail
+u00164,g_dep_3,Communications
+u00164,g_div_0,Europe Retail
+u00164,g_int_2,Interest group 3
+u00164,g_int_5,Interest group 6
+u00165,g_dep_0,Store Operations
+u00165,g_div_0,Europe Retail
+u00165,g_int_2,Interest group 3
+u00165,g_int_3,Interest group 4
+u00166,g_dep_0,Store Operations
+u00166,g_div_0,Europe Retail
+u00167,g_dep_0,Store Operations
+u00167,g_div_0,Europe Retail
+u00168,g_dep_1,Customer Service
+u00168,g_div_0,Europe Retail
+u00168,g_int_0,Interest group 1
+u00168,g_int_3,Interest group 4
+u00169,g_dep_3,Communications
+u00169,g_div_1,US Retail
+u00169,g_int_5,Interest group 6
+u00169,g_int_1,Interest group 2
+u00170,g_dep_0,Store Operations
+u00170,g_div_1,US Retail
+u00170,g_int_3,Interest group 4
+u00170,g_int_4,Interest group 5
+u00171,g_dep_5,Management
+u00171,g_div_0,Europe Retail
+u00171,g_int_5,Interest group 6
+u00172,g_dep_0,Store Operations
+u00172,g_div_0,Europe Retail
+u00173,g_dep_2,Logistics
+u00173,g_div_1,US Retail
+u00173,g_int_2,Interest group 3
+u00173,g_int_0,Interest group 1
+u00174,g_dep_0,Store Operations
+u00174,g_div_1,US Retail
+u00174,g_int_1,Interest group 2
+u00175,g_dep_5,Management
+u00175,g_div_1,US Retail
+u00175,g_int_1,Interest group 2
+u00175,g_int_5,Interest group 6
+u00176,g_dep_1,Customer Service
+u00176,g_div_0,Europe Retail
+u00176,g_int_2,Interest group 3
+u00177,g_dep_2,Logistics
+u00177,g_div_0,Europe Retail
+u00177,g_int_0,Interest group 1
+u00178,g_dep_2,Logistics
+u00178,g_div_0,Europe Retail
+u00178,g_int_0,Interest group 1
+u00179,g_dep_1,Customer Service
+u00179,g_div_0,Europe Retail
+u00180,g_dep_1,Customer Service
+u00180,g_div_0,Europe Retail
+u00181,g_dep_1,Customer Service
+u00181,g_div_0,Europe Retail
+u00181,g_int_0,Interest group 1
+u00182,g_dep_2,Logistics
+u00182,g_div_0,Europe Retail
+u00183,g_dep_3,Communications
+u00183,g_div_0,Europe Retail
+u00184,g_dep_1,Customer Service
+u00184,g_div_0,Europe Retail
+u00184,g_int_3,Interest group 4
+u00185,g_dep_0,Store Operations
+u00185,g_div_1,US Retail
+u00185,g_int_0,Interest group 1
+u00186,g_dep_2,Logistics
+u00186,g_div_0,Europe Retail
+u00186,g_int_4,Interest group 5
+u00186,g_int_2,Interest group 3
+u00187,g_dep_0,Store Operations
+u00187,g_div_0,Europe Retail
+u00188,g_dep_1,Customer Service
+u00188,g_div_0,Europe Retail
+u00188,g_int_5,Interest group 6
+u00189,g_dep_1,Customer Service
+u00189,g_div_0,Europe Retail
+u00190,g_dep_0,Store Operations
+u00190,g_div_0,Europe Retail
+u00191,g_dep_0,Store Operations
+u00191,g_div_0,Europe Retail
+u00192,g_dep_1,Customer Service
+u00192,g_div_0,Europe Retail
+u00192,g_int_2,Interest group 3
+u00192,g_int_5,Interest group 6
+u00193,g_dep_2,Logistics
+u00193,g_div_0,Europe Retail
+u00193,g_int_5,Interest group 6
+u00194,g_dep_1,Customer Service
+u00194,g_div_0,Europe Retail
+u00194,g_int_3,Interest group 4
+u00194,g_int_0,Interest group 1
+u00195,g_dep_2,Logistics
+u00195,g_div_0,Europe Retail
+u00196,g_dep_0,Store Operations
+u00196,g_div_0,Europe Retail
+u00197,g_dep_0,Store Operations
+u00197,g_div_0,Europe Retail
+u00198,g_dep_1,Customer Service
+u00198,g_div_0,Europe Retail
+u00198,g_int_3,Interest group 4
+u00199,g_dep_0,Store Operations
+u00199,g_div_0,Europe Retail
+u00199,g_int_3,Interest group 4
+u00200,g_dep_0,Store Operations
+u00200,g_div_0,Europe Retail
+u00201,g_dep_1,Customer Service
+u00201,g_div_0,Europe Retail
+u00202,g_dep_2,Logistics
+u00202,g_div_0,Europe Retail
+u00202,g_int_4,Interest group 5
+u00203,g_dep_2,Logistics
+u00203,g_div_0,Europe Retail
+u00203,g_int_3,Interest group 4
+u00204,g_dep_1,Customer Service
+u00204,g_div_0,Europe Retail
+u00204,g_int_0,Interest group 1
+u00204,g_int_1,Interest group 2
+u00205,g_dep_1,Customer Service
+u00205,g_div_0,Europe Retail
+u00206,g_dep_0,Store Operations
+u00206,g_div_0,Europe Retail
+u00206,g_int_1,Interest group 2
+u00207,g_dep_0,Store Operations
+u00207,g_div_0,Europe Retail
+u00207,g_int_1,Interest group 2
+u00208,g_dep_0,Store Operations
+u00208,g_div_0,Europe Retail
+u00208,g_int_1,Interest group 2
+u00209,g_dep_2,Logistics
+u00209,g_div_0,Europe Retail
+u00209,g_int_1,Interest group 2
+u00209,g_int_2,Interest group 3
+u00210,g_dep_2,Logistics
+u00210,g_div_0,Europe Retail
+u00211,g_dep_0,Store Operations
+u00211,g_div_0,Europe Retail
+u00212,g_dep_1,Customer Service
+u00212,g_div_0,Europe Retail
+u00213,g_dep_3,Communications
+u00213,g_div_0,Europe Retail
+u00213,g_int_1,Interest group 2
+u00214,g_dep_3,Communications
+u00214,g_div_0,Europe Retail
+u00215,g_dep_0,Store Operations
+u00215,g_div_0,Europe Retail
+u00216,g_dep_1,Customer Service
+u00216,g_div_0,Europe Retail
+u00217,g_dep_0,Store Operations
+u00217,g_div_0,Europe Retail
+u00217,g_int_1,Interest group 2
+u00217,g_int_5,Interest group 6
+u00218,g_dep_1,Customer Service
+u00218,g_div_1,US Retail
+u00218,g_int_1,Interest group 2
+u00219,g_dep_0,Store Operations
+u00219,g_div_0,Europe Retail
+u00220,g_dep_1,Customer Service
+u00220,g_div_0,Europe Retail
+u00221,g_dep_1,Customer Service
+u00221,g_div_1,US Retail
+u00222,g_dep_0,Store Operations
+u00222,g_div_0,Europe Retail
+u00222,g_int_2,Interest group 3
+u00223,g_dep_1,Customer Service
+u00223,g_div_0,Europe Retail
+u00224,g_dep_2,Logistics
+u00224,g_div_0,Europe Retail
+u00224,g_int_5,Interest group 6
+u00225,g_dep_0,Store Operations
+u00225,g_div_0,Europe Retail
+u00225,g_int_0,Interest group 1
+u00226,g_dep_1,Customer Service
+u00226,g_div_1,US Retail
+u00226,g_int_2,Interest group 3
+u00227,g_dep_0,Store Operations
+u00227,g_div_0,Europe Retail
+u00227,g_int_0,Interest group 1
+u00227,g_int_4,Interest group 5
+u00228,g_dep_0,Store Operations
+u00228,g_div_0,Europe Retail
+u00228,g_int_3,Interest group 4
+u00228,g_int_0,Interest group 1
+u00229,g_dep_0,Store Operations
+u00229,g_div_0,Europe Retail
+u00230,g_dep_1,Customer Service
+u00230,g_div_0,Europe Retail
+u00230,g_int_4,Interest group 5
+u00231,g_dep_1,Customer Service
+u00231,g_div_0,Europe Retail
+u00231,g_int_0,Interest group 1
+u00232,g_dep_2,Logistics
+u00232,g_div_0,Europe Retail
+u00233,g_dep_0,Store Operations
+u00233,g_div_0,Europe Retail
+u00234,g_dep_0,Store Operations
+u00234,g_div_0,Europe Retail
+u00234,g_int_2,Interest group 3
+u00234,g_int_3,Interest group 4
+u00235,g_dep_1,Customer Service
+u00235,g_div_0,Europe Retail
+u00235,g_int_4,Interest group 5
+u00236,g_dep_1,Customer Service
+u00236,g_div_1,US Retail
+u00236,g_int_1,Interest group 2
+u00237,g_dep_5,Management
+u00237,g_div_1,US Retail
+u00237,g_int_3,Interest group 4
+u00237,g_int_1,Interest group 2
+u00238,g_dep_0,Store Operations
+u00238,g_div_0,Europe Retail
+u00238,g_int_4,Interest group 5
+u00239,g_dep_0,Store Operations
+u00239,g_div_0,Europe Retail
+u00239,g_int_5,Interest group 6
+u00240,g_dep_3,Communications
+u00240,g_div_0,Europe Retail
+u00240,g_int_0,Interest group 1
+u00241,g_dep_0,Store Operations
+u00241,g_div_1,US Retail
+u00242,g_dep_1,Customer Service
+u00242,g_div_0,Europe Retail
+u00242,g_int_5,Interest group 6
+u00242,g_int_4,Interest group 5
+u00243,g_dep_1,Customer Service
+u00243,g_div_0,Europe Retail
+u00244,g_dep_1,Customer Service
+u00244,g_div_0,Europe Retail
+u00244,g_int_4,Interest group 5
+u00244,g_int_2,Interest group 3
+u00245,g_dep_0,Store Operations
+u00245,g_div_1,US Retail
+u00245,g_int_4,Interest group 5
+u00245,g_int_3,Interest group 4
+u00246,g_dep_0,Store Operations
+u00246,g_div_1,US Retail
+u00246,g_int_2,Interest group 3
+u00246,g_int_3,Interest group 4
+u00247,g_dep_2,Logistics
+u00247,g_div_0,Europe Retail
+u00248,g_dep_0,Store Operations
+u00248,g_div_0,Europe Retail
+u00249,g_dep_0,Store Operations
+u00249,g_div_0,Europe Retail
+u00249,g_int_5,Interest group 6
+u00249,g_int_4,Interest group 5
+u00250,g_dep_1,Customer Service
+u00250,g_div_0,Europe Retail
+u00250,g_int_2,Interest group 3
+u00251,g_dep_0,Store Operations
+u00251,g_div_1,US Retail
+u00251,g_int_4,Interest group 5
+u00251,g_int_1,Interest group 2
+u00252,g_dep_0,Store Operations
+u00252,g_div_0,Europe Retail
+u00252,g_int_1,Interest group 2
+u00252,g_int_2,Interest group 3
+u00253,g_dep_1,Customer Service
+u00253,g_div_1,US Retail
+u00253,g_int_4,Interest group 5
+u00253,g_int_2,Interest group 3
+u00254,g_dep_4,Human Resources
+u00254,g_div_0,Europe Retail
+u00254,g_int_5,Interest group 6
+u00254,g_int_2,Interest group 3
+u00255,g_dep_0,Store Operations
+u00255,g_div_0,Europe Retail
+u00255,g_int_4,Interest group 5
+u00256,g_dep_3,Communications
+u00256,g_div_0,Europe Retail
+u00256,g_int_2,Interest group 3
+u00256,g_int_4,Interest group 5
+u00257,g_dep_5,Management
+u00257,g_div_0,Europe Retail
+u00258,g_dep_0,Store Operations
+u00258,g_div_0,Europe Retail
+u00258,g_int_1,Interest group 2
+u00258,g_int_2,Interest group 3
+u00259,g_dep_5,Management
+u00259,g_div_0,Europe Retail
+u00259,g_int_4,Interest group 5
+u00260,g_dep_0,Store Operations
+u00260,g_div_0,Europe Retail
+u00260,g_int_5,Interest group 6
+u00260,g_int_0,Interest group 1
+u00261,g_dep_4,Human Resources
+u00261,g_div_0,Europe Retail
+u00261,g_int_3,Interest group 4
+u00262,g_dep_0,Store Operations
+u00262,g_div_0,Europe Retail
+u00262,g_int_1,Interest group 2
+u00263,g_dep_4,Human Resources
+u00263,g_div_0,Europe Retail
+u00263,g_int_2,Interest group 3
+u00264,g_dep_0,Store Operations
+u00264,g_div_0,Europe Retail
+u00264,g_int_4,Interest group 5
+u00265,g_dep_4,Human Resources
+u00265,g_div_0,Europe Retail
+u00265,g_int_0,Interest group 1
+u00266,g_dep_0,Store Operations
+u00266,g_div_0,Europe Retail
+u00266,g_int_1,Interest group 2
+u00266,g_int_4,Interest group 5
+u00267,g_dep_0,Store Operations
+u00267,g_div_0,Europe Retail
+u00268,g_dep_0,Store Operations
+u00268,g_div_1,US Retail
+u00269,g_dep_0,Store Operations
+u00269,g_div_0,Europe Retail
+u00269,g_int_0,Interest group 1
+u00270,g_dep_0,Store Operations
+u00270,g_div_0,Europe Retail
+u00270,g_int_4,Interest group 5
+u00271,g_dep_0,Store Operations
+u00271,g_div_0,Europe Retail
+u00271,g_int_5,Interest group 6
+u00271,g_int_3,Interest group 4
+u00272,g_dep_5,Management
+u00272,g_div_0,Europe Retail
+u00272,g_int_5,Interest group 6
+u00273,g_dep_0,Store Operations
+u00273,g_div_0,Europe Retail
+u00273,g_int_1,Interest group 2
+u00274,g_dep_1,Customer Service
+u00274,g_div_0,Europe Retail
+u00274,g_int_0,Interest group 1
+u00274,g_int_5,Interest group 6
+u00275,g_dep_1,Customer Service
+u00275,g_div_0,Europe Retail
+u00275,g_int_3,Interest group 4
+u00276,g_dep_2,Logistics
+u00276,g_div_0,Europe Retail
+u00276,g_int_1,Interest group 2
+u00276,g_int_4,Interest group 5
+u00277,g_dep_2,Logistics
+u00277,g_div_0,Europe Retail
+u00278,g_dep_1,Customer Service
+u00278,g_div_0,Europe Retail
+u00279,g_dep_0,Store Operations
+u00279,g_div_1,US Retail
+u00280,g_dep_0,Store Operations
+u00280,g_div_0,Europe Retail
+u00281,g_dep_1,Customer Service
+u00281,g_div_0,Europe Retail
+u00281,g_int_2,Interest group 3
+u00281,g_int_4,Interest group 5
+u00282,g_dep_0,Store Operations
+u00282,g_div_0,Europe Retail
+u00282,g_int_5,Interest group 6
+u00282,g_int_1,Interest group 2
+u00283,g_dep_1,Customer Service
+u00283,g_div_0,Europe Retail
+u00284,g_dep_3,Communications
+u00284,g_div_0,Europe Retail
+u00285,g_dep_1,Customer Service
+u00285,g_div_0,Europe Retail
+u00286,g_dep_2,Logistics
+u00286,g_div_0,Europe Retail
+u00287,g_dep_2,Logistics
+u00287,g_div_1,US Retail
+u00288,g_dep_0,Store Operations
+u00288,g_div_0,Europe Retail
+u00288,g_int_5,Interest group 6
+u00289,g_dep_5,Management
+u00289,g_div_0,Europe Retail
+u00289,g_int_4,Interest group 5
+u00289,g_int_3,Interest group 4
+u00290,g_dep_0,Store Operations
+u00290,g_div_0,Europe Retail
+u00290,g_int_3,Interest group 4
+u00290,g_int_4,Interest group 5
+u00291,g_dep_5,Management
+u00291,g_div_1,US Retail
+u00291,g_int_1,Interest group 2
+u00291,g_int_3,Interest group 4
+u00292,g_dep_1,Customer Service
+u00292,g_div_0,Europe Retail
+u00292,g_int_3,Interest group 4
+u00293,g_dep_0,Store Operations
+u00293,g_div_1,US Retail
+u00293,g_int_0,Interest group 1
+u00293,g_int_5,Interest group 6
+u00294,g_dep_0,Store Operations
+u00294,g_div_0,Europe Retail
+u00295,g_dep_1,Customer Service
+u00295,g_div_0,Europe Retail
+u00296,g_dep_0,Store Operations
+u00296,g_div_0,Europe Retail
+u00296,g_int_0,Interest group 1
+u00297,g_dep_3,Communications
+u00297,g_div_0,Europe Retail
+u00298,g_dep_0,Store Operations
+u00298,g_div_0,Europe Retail
+u00298,g_int_1,Interest group 2
+u00298,g_int_5,Interest group 6
+u00299,g_dep_1,Customer Service
+u00299,g_div_1,US Retail
+u00299,g_int_2,Interest group 3
+u00299,g_int_4,Interest group 5
+u00300,g_dep_0,Store Operations
+u00300,g_div_0,Europe Retail
+u00301,g_dep_1,Customer Service
+u00301,g_div_0,Europe Retail
+u00302,g_dep_0,Store Operations
+u00302,g_div_0,Europe Retail
+u00302,g_int_3,Interest group 4
+u00303,g_dep_4,Human Resources
+u00303,g_div_0,Europe Retail
+u00303,g_int_0,Interest group 1
+u00304,g_dep_1,Customer Service
+u00304,g_div_0,Europe Retail
+u00304,g_int_3,Interest group 4
+u00305,g_dep_1,Customer Service
+u00305,g_div_0,Europe Retail
+u00305,g_int_5,Interest group 6
+u00306,g_dep_0,Store Operations
+u00306,g_div_0,Europe Retail
+u00307,g_dep_3,Communications
+u00307,g_div_0,Europe Retail
+u00307,g_int_1,Interest group 2
+u00307,g_int_3,Interest group 4
+u00308,g_dep_3,Communications
+u00308,g_div_0,Europe Retail
+u00308,g_int_2,Interest group 3
+u00309,g_dep_0,Store Operations
+u00309,g_div_1,US Retail
+u00310,g_dep_0,Store Operations
+u00310,g_div_0,Europe Retail
+u00310,g_int_4,Interest group 5
+u00311,g_dep_1,Customer Service
+u00311,g_div_0,Europe Retail
+u00311,g_int_2,Interest group 3
+u00311,g_int_1,Interest group 2
+u00312,g_dep_1,Customer Service
+u00312,g_div_1,US Retail
+u00312,g_int_2,Interest group 3
+u00312,g_int_5,Interest group 6
+u00313,g_dep_2,Logistics
+u00313,g_div_0,Europe Retail
+u00313,g_int_3,Interest group 4
+u00313,g_int_4,Interest group 5
+u00314,g_dep_0,Store Operations
+u00314,g_div_0,Europe Retail
+u00315,g_dep_0,Store Operations
+u00315,g_div_0,Europe Retail
+u00316,g_dep_0,Store Operations
+u00316,g_div_0,Europe Retail
+u00316,g_int_1,Interest group 2
+u00316,g_int_4,Interest group 5
+u00317,g_dep_0,Store Operations
+u00317,g_div_0,Europe Retail
+u00317,g_int_3,Interest group 4
+u00318,g_dep_0,Store Operations
+u00318,g_div_1,US Retail
+u00318,g_int_2,Interest group 3
+u00318,g_int_3,Interest group 4
+u00319,g_dep_4,Human Resources
+u00319,g_div_0,Europe Retail
+u00320,g_dep_2,Logistics
+u00320,g_div_0,Europe Retail
+u00321,g_dep_2,Logistics
+u00321,g_div_0,Europe Retail
+u00321,g_int_5,Interest group 6
+u00321,g_int_0,Interest group 1
+u00322,g_dep_0,Store Operations
+u00322,g_div_1,US Retail
+u00322,g_int_1,Interest group 2
+u00323,g_dep_1,Customer Service
+u00323,g_div_0,Europe Retail
+u00324,g_dep_1,Customer Service
+u00324,g_div_0,Europe Retail
+u00324,g_int_0,Interest group 1
+u00324,g_int_3,Interest group 4
+u00325,g_dep_0,Store Operations
+u00325,g_div_0,Europe Retail
+u00326,g_dep_4,Human Resources
+u00326,g_div_0,Europe Retail
+u00327,g_dep_0,Store Operations
+u00327,g_div_0,Europe Retail
+u00327,g_int_5,Interest group 6
+u00328,g_dep_0,Store Operations
+u00328,g_div_1,US Retail
+u00329,g_dep_0,Store Operations
+u00329,g_div_1,US Retail
+u00330,g_dep_0,Store Operations
+u00330,g_div_1,US Retail
+u00330,g_int_2,Interest group 3
+u00330,g_int_1,Interest group 2
+u00331,g_dep_2,Logistics
+u00331,g_div_0,Europe Retail
+u00332,g_dep_0,Store Operations
+u00332,g_div_0,Europe Retail
+u00332,g_int_2,Interest group 3
+u00332,g_int_1,Interest group 2
+u00333,g_dep_5,Management
+u00333,g_div_0,Europe Retail
+u00333,g_int_3,Interest group 4
+u00333,g_int_1,Interest group 2
+u00334,g_dep_2,Logistics
+u00334,g_div_0,Europe Retail
+u00335,g_dep_4,Human Resources
+u00335,g_div_0,Europe Retail
+u00335,g_int_2,Interest group 3
+u00336,g_dep_0,Store Operations
+u00336,g_div_0,Europe Retail
+u00336,g_int_1,Interest group 2
+u00336,g_int_5,Interest group 6
+u00337,g_dep_2,Logistics
+u00337,g_div_0,Europe Retail
+u00338,g_dep_1,Customer Service
+u00338,g_div_0,Europe Retail
+u00339,g_dep_0,Store Operations
+u00339,g_div_1,US Retail
+u00340,g_dep_1,Customer Service
+u00340,g_div_0,Europe Retail
+u00340,g_int_2,Interest group 3
+u00340,g_int_1,Interest group 2
+u00341,g_dep_0,Store Operations
+u00341,g_div_0,Europe Retail
+u00341,g_int_3,Interest group 4
+u00341,g_int_4,Interest group 5
+u00342,g_dep_0,Store Operations
+u00342,g_div_1,US Retail
+u00342,g_int_1,Interest group 2
+u00342,g_int_3,Interest group 4
+u00343,g_dep_0,Store Operations
+u00343,g_div_0,Europe Retail
+u00344,g_dep_0,Store Operations
+u00344,g_div_0,Europe Retail
+u00344,g_int_4,Interest group 5
+u00345,g_dep_1,Customer Service
+u00345,g_div_0,Europe Retail
+u00345,g_int_0,Interest group 1
+u00345,g_int_4,Interest group 5
+u00346,g_dep_1,Customer Service
+u00346,g_div_0,Europe Retail
+u00347,g_dep_0,Store Operations
+u00347,g_div_1,US Retail
+u00347,g_int_0,Interest group 1
+u00348,g_dep_1,Customer Service
+u00348,g_div_1,US Retail
+u00348,g_int_4,Interest group 5
+u00348,g_int_5,Interest group 6
+u00349,g_dep_0,Store Operations
+u00349,g_div_0,Europe Retail
+u00350,g_dep_0,Store Operations
+u00350,g_div_0,Europe Retail
+u00350,g_int_0,Interest group 1
+u00350,g_int_3,Interest group 4
+u00351,g_dep_0,Store Operations
+u00351,g_div_0,Europe Retail
+u00351,g_int_2,Interest group 3
+u00351,g_int_3,Interest group 4
+u00352,g_dep_1,Customer Service
+u00352,g_div_1,US Retail
+u00353,g_dep_2,Logistics
+u00353,g_div_0,Europe Retail
+u00353,g_int_5,Interest group 6
+u00353,g_int_0,Interest group 1
+u00354,g_dep_0,Store Operations
+u00354,g_div_0,Europe Retail
+u00354,g_int_1,Interest group 2
+u00355,g_dep_3,Communications
+u00355,g_div_0,Europe Retail
+u00355,g_int_5,Interest group 6
+u00356,g_dep_5,Management
+u00356,g_div_1,US Retail
+u00356,g_int_5,Interest group 6
+u00356,g_int_3,Interest group 4
+u00357,g_dep_0,Store Operations
+u00357,g_div_0,Europe Retail
+u00357,g_int_0,Interest group 1
+u00357,g_int_2,Interest group 3
+u00358,g_dep_1,Customer Service
+u00358,g_div_0,Europe Retail
+u00358,g_int_3,Interest group 4
+u00358,g_int_1,Interest group 2
+u00359,g_dep_5,Management
+u00359,g_div_0,Europe Retail
+u00359,g_int_1,Interest group 2
+u00359,g_int_3,Interest group 4
+u00360,g_dep_0,Store Operations
+u00360,g_div_1,US Retail
+u00361,g_dep_2,Logistics
+u00361,g_div_0,Europe Retail
+u00361,g_int_0,Interest group 1
+u00362,g_dep_4,Human Resources
+u00362,g_div_0,Europe Retail
+u00362,g_int_1,Interest group 2
+u00362,g_int_0,Interest group 1
+u00363,g_dep_1,Customer Service
+u00363,g_div_0,Europe Retail
+u00363,g_int_1,Interest group 2
+u00364,g_dep_4,Human Resources
+u00364,g_div_0,Europe Retail
+u00365,g_dep_0,Store Operations
+u00365,g_div_0,Europe Retail
+u00365,g_int_2,Interest group 3
+u00365,g_int_1,Interest group 2
+u00366,g_dep_0,Store Operations
+u00366,g_div_0,Europe Retail
+u00366,g_int_0,Interest group 1
+u00366,g_int_3,Interest group 4
+u00367,g_dep_0,Store Operations
+u00367,g_div_0,Europe Retail
+u00368,g_dep_1,Customer Service
+u00368,g_div_0,Europe Retail
+u00368,g_int_2,Interest group 3
+u00368,g_int_3,Interest group 4
+u00369,g_dep_1,Customer Service
+u00369,g_div_0,Europe Retail
+u00369,g_int_3,Interest group 4
+u00370,g_dep_0,Store Operations
+u00370,g_div_0,Europe Retail
+u00370,g_int_4,Interest group 5
+u00370,g_int_3,Interest group 4
+u00371,g_dep_0,Store Operations
+u00371,g_div_1,US Retail
+u00372,g_dep_0,Store Operations
+u00372,g_div_0,Europe Retail
+u00372,g_int_2,Interest group 3
+u00373,g_dep_3,Communications
+u00373,g_div_0,Europe Retail
+u00373,g_int_5,Interest group 6
+u00373,g_int_3,Interest group 4
+u00374,g_dep_0,Store Operations
+u00374,g_div_0,Europe Retail
+u00374,g_int_2,Interest group 3
+u00374,g_int_0,Interest group 1
+u00375,g_dep_0,Store Operations
+u00375,g_div_0,Europe Retail
+u00375,g_int_5,Interest group 6
+u00375,g_int_0,Interest group 1
+u00376,g_dep_2,Logistics
+u00376,g_div_0,Europe Retail
+u00376,g_int_0,Interest group 1
+u00376,g_int_5,Interest group 6
+u00377,g_dep_2,Logistics
+u00377,g_div_0,Europe Retail
+u00378,g_dep_0,Store Operations
+u00378,g_div_0,Europe Retail
+u00379,g_dep_5,Management
+u00379,g_div_0,Europe Retail
+u00380,g_dep_0,Store Operations
+u00380,g_div_0,Europe Retail
+u00381,g_dep_0,Store Operations
+u00381,g_div_0,Europe Retail
+u00382,g_dep_0,Store Operations
+u00382,g_div_0,Europe Retail
+u00382,g_int_0,Interest group 1
+u00382,g_int_3,Interest group 4
+u00383,g_dep_0,Store Operations
+u00383,g_div_0,Europe Retail
+u00383,g_int_0,Interest group 1
+u00383,g_int_1,Interest group 2
+u00384,g_dep_2,Logistics
+u00384,g_div_0,Europe Retail
+u00384,g_int_1,Interest group 2
+u00385,g_dep_2,Logistics
+u00385,g_div_0,Europe Retail
+u00386,g_dep_2,Logistics
+u00386,g_div_1,US Retail
+u00386,g_int_5,Interest group 6
+u00386,g_int_2,Interest group 3
+u00387,g_dep_2,Logistics
+u00387,g_div_0,Europe Retail
+u00387,g_int_3,Interest group 4
+u00388,g_dep_0,Store Operations
+u00388,g_div_0,Europe Retail
+u00389,g_dep_4,Human Resources
+u00389,g_div_0,Europe Retail
+u00389,g_int_4,Interest group 5
+u00390,g_dep_1,Customer Service
+u00390,g_div_0,Europe Retail
+u00390,g_int_0,Interest group 1
+u00390,g_int_3,Interest group 4
+u00391,g_dep_0,Store Operations
+u00391,g_div_0,Europe Retail
+u00391,g_int_1,Interest group 2
+u00392,g_dep_0,Store Operations
+u00392,g_div_1,US Retail
+u00392,g_int_2,Interest group 3
+u00392,g_int_0,Interest group 1
+u00393,g_dep_1,Customer Service
+u00393,g_div_0,Europe Retail
+u00393,g_int_3,Interest group 4
+u00393,g_int_5,Interest group 6
+u00394,g_dep_0,Store Operations
+u00394,g_div_0,Europe Retail
+u00395,g_dep_0,Store Operations
+u00395,g_div_1,US Retail
+u00395,g_int_5,Interest group 6
+u00395,g_int_3,Interest group 4
+u00396,g_dep_0,Store Operations
+u00396,g_div_0,Europe Retail
+u00397,g_dep_5,Management
+u00397,g_div_0,Europe Retail
+u00398,g_dep_0,Store Operations
+u00398,g_div_1,US Retail
+u00399,g_dep_4,Human Resources
+u00399,g_div_0,Europe Retail

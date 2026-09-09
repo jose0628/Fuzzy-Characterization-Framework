@@ -1,0 +1,401 @@
+user_id,full_name,username,job_title,department,division,country,airport,terminal,employee_category,shift_pattern,age,preferred_language
+u00000,Elena Fischer,efischer00,Team Lead,Human Resources,Europe Retail,DE,FRA,T1,office-based,office,27,de
+u00001,Omar Keller,okeller01,Store Assistant,Store Operations,Europe Retail,GB,LHR,T2,shift-based,short,44,en
+u00002,Yusuf Weber,yweber02,Stock Assistant,Logistics,Europe Retail,ES,BCN,T1,shift-based,night,63,es
+u00003,Luca Kaur,lkaur03,Store Manager,Management,Europe Retail,CH,ZRH,T3,office-based,office,31,it
+u00004,Ivan Chen,ichen04,Beauty Advisor,Customer Service,Europe Retail,CH,ZRH,T2,shift-based,day,30,it
+u00005,Aiko Chen,achen05,Sales Associate,Store Operations,Europe Retail,IT,MXP,T3,shift-based,day,28,it
+u00006,Sofia Schneider,sschneider06,Logistics Coordinator,Logistics,Europe Retail,FR,NCE,T2,shift-based,short,42,fr
+u00007,Lena Weber,lweber07,Stock Assistant,Logistics,Europe Retail,DE,FRA,T2,shift-based,long,26,de
+u00008,Noor Lopez,nlopez08,Store Assistant,Communications,Europe Retail,DE,MUC,T3,office-based,office,36,de
+u00009,Robin Dubois,rdubois09,Sales Associate,Customer Service,US Retail,US,LAX,T2,shift-based,short,28,en
+u00010,Ivan Silva,isilva10,Senior Sales Associate,Store Operations,Europe Retail,CH,ZRH,T2,shift-based,day,32,de
+u00011,Jordan Rossi,jrossi11,Store Assistant,Store Operations,Europe Retail,DE,FRA,T3,shift-based,short,22,de
+u00012,Omar Brown,obrown12,Senior Sales Associate,Store Operations,Europe Retail,FR,NCE,T3,shift-based,night,18,fr
+u00013,Elena Rossi,erossi13,Stock Assistant,Store Operations,Europe Retail,FR,CDG,T3,shift-based,long,51,fr
+u00014,Casey Fischer,cfischer14,Customer Service Agent,Store Operations,Europe Retail,DE,MUC,T3,shift-based,day,23,de
+u00015,Lena Novak,lnovak15,Senior Sales Associate,Customer Service,Europe Retail,FR,CDG,T1,shift-based,day,29,fr
+u00016,Taylor Lopez,tlopez16,Logistics Associate,Logistics,Europe Retail,DE,MUC,T2,shift-based,day,25,de
+u00017,Casey Fischer,cfischer17,Stock Assistant,Customer Service,Europe Retail,IT,MXP,T2,shift-based,day,29,it
+u00018,Jordan Costa,jcosta18,Stock Assistant,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,day,33,it
+u00019,Alex Muller,amuller19,Logistics Associate,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,day,42,it
+u00020,Omar Smith,osmith20,Stock Assistant,Store Operations,Europe Retail,IT,MXP,T2,shift-based,split,40,it
+u00021,Alex Meier,ameier21,Beauty Advisor,Customer Service,Europe Retail,IT,FCO,T1,shift-based,split,46,it
+u00022,Chloe Lopez,clopez22,Store Assistant,Logistics,Europe Retail,CH,BSL,T2,shift-based,short,38,fr
+u00023,Alex Dubois,adubois23,Senior Sales Associate,Store Operations,Europe Retail,IT,FCO,T3,shift-based,short,37,it
+u00024,Chloe Kaur,ckaur24,Head of Retail Operations,Store Operations,Europe Retail,DE,MUC,T3,shift-based,day,32,de
+u00025,Noor Rossi,nrossi25,Cashier,Customer Service,US Retail,US,MIA,T3,office-based,office,31,en
+u00026,Robin Bianchi,rbianchi26,Cashier,Customer Service,Europe Retail,GB,LGW,T2,shift-based,day,44,en
+u00027,Elena Rossi,erossi27,Shift Supervisor,Customer Service,Europe Retail,CH,ZRH,T1,shift-based,long,39,it
+u00028,Aiko Lopez,alopez28,Customer Service Agent,Customer Service,Europe Retail,DE,MUC,T2,shift-based,day,50,de
+u00029,Jamie Novak,jnovak29,Cashier,Logistics,Europe Retail,DE,MUC,T2,office-based,office,19,de
+u00030,Jamie Fischer,jfischer30,Beauty Advisor,Store Operations,Europe Retail,ES,BCN,T1,shift-based,day,30,es
+u00031,Sam Silva,ssilva31,Senior Customer Service Specialist,Store Operations,Europe Retail,CH,BSL,T3,shift-based,day,38,it
+u00032,Jordan Brown,jbrown32,Regional Manager,Customer Service,Europe Retail,IT,MXP,T2,shift-based,night,49,it
+u00033,Luca Weber,lweber33,Store Manager,Communications,US Retail,US,JFK,T2,office-based,office,34,es
+u00034,Chloe Novak,cnovak34,Sales Associate,Logistics,Europe Retail,CH,GVA,T1,shift-based,split,34,de
+u00035,Priya Novak,pnovak35,Cashier,Customer Service,Europe Retail,CH,GVA,T2,shift-based,short,35,it
+u00036,Taylor Garcia,tgarcia36,Senior Customer Service Specialist,Customer Service,Europe Retail,GB,LGW,T2,shift-based,night,46,en
+u00037,Noor Schneider,nschneider37,Senior Sales Associate,Customer Service,Europe Retail,CH,GVA,T2,shift-based,day,30,it
+u00038,Jordan Moreau,jmoreau38,Customer Service Agent,Logistics,Europe Retail,CH,BSL,T1,shift-based,day,40,it
+u00039,Ivan Lopez,ilopez39,Stock Assistant,Store Operations,Europe Retail,DE,FRA,T1,office-based,office,32,de
+u00040,Priya Lopez,plopez40,Team Lead,Store Operations,Europe Retail,ES,BCN,T1,shift-based,split,26,es
+u00041,Lena Moreau,lmoreau41,Regional Manager,Logistics,Europe Retail,DE,MUC,T1,shift-based,night,32,de
+u00042,Sofia Chen,schen42,Senior Customer Service Specialist,Store Operations,Europe Retail,CH,ZRH,T2,shift-based,day,50,it
+u00043,Noor Lopez,nlopez43,Senior Sales Associate,Store Operations,Europe Retail,CH,BSL,T2,shift-based,day,35,fr
+u00044,Morgan Moreau,mmoreau44,Store Assistant,Logistics,Europe Retail,DE,MUC,T3,shift-based,day,33,de
+u00045,Chloe Garcia,cgarcia45,Team Lead,Store Operations,Europe Retail,ES,BCN,T3,shift-based,day,18,es
+u00046,Jamie Costa,jcosta46,Store Manager,Human Resources,Europe Retail,DE,FRA,T2,office-based,office,18,de
+u00047,Aiko Moreau,amoreau47,Stock Assistant,Store Operations,Europe Retail,FR,CDG,T3,shift-based,split,28,fr
+u00048,Luca Fischer,lfischer48,Logistics Associate,Human Resources,Europe Retail,GB,LHR,T2,office-based,office,27,en
+u00049,Noor Rossi,nrossi49,Beauty Advisor,Store Operations,US Retail,US,LAX,T2,shift-based,long,34,en
+u00050,Priya Silva,psilva50,Logistics Coordinator,Store Operations,Europe Retail,DE,MUC,T2,shift-based,short,19,de
+u00051,Morgan Moreau,mmoreau51,Cashier,Store Operations,Europe Retail,CH,BSL,T1,shift-based,day,18,it
+u00052,Aiko Kaur,akaur52,Beauty Advisor,Store Operations,Europe Retail,GB,LGW,T2,office-based,office,35,en
+u00053,Taylor Dubois,tdubois53,Logistics Associate,Customer Service,Europe Retail,DE,MUC,T1,shift-based,day,35,de
+u00054,Luca Moreau,lmoreau54,Assistant Manager,Management,Europe Retail,CH,ZRH,T3,office-based,office,31,it
+u00055,Ivan Muller,imuller55,Sales Associate,Customer Service,Europe Retail,FR,CDG,T1,shift-based,day,42,fr
+u00056,Sam Smith,ssmith56,Customer Service Agent,Store Operations,Europe Retail,CH,BSL,T3,office-based,office,46,fr
+u00057,Chloe Costa,ccosta57,Stock Assistant,Store Operations,Europe Retail,ES,MAD,T3,shift-based,short,30,es
+u00058,Robin Garcia,rgarcia58,Team Lead,Store Operations,Europe Retail,CH,BSL,T3,shift-based,day,23,fr
+u00059,Alex Martin,amartin59,Senior Sales Associate,Logistics,Europe Retail,CH,BSL,T1,shift-based,short,41,it
+u00060,Jordan Meier,jmeier60,Store Assistant,Customer Service,Europe Retail,GB,LHR,T1,office-based,office,35,en
+u00061,Luca Smith,lsmith61,Senior Sales Associate,Logistics,Europe Retail,ES,BCN,T1,shift-based,day,61,es
+u00062,Aiko Kaur,akaur62,Store Assistant,Store Operations,US Retail,US,MIA,T1,shift-based,day,47,es
+u00063,Priya Fischer,pfischer63,Customer Service Agent,Human Resources,US Retail,US,MIA,T3,office-based,office,36,en
+u00064,Aiko Rossi,arossi64,Store Manager,Management,Europe Retail,CH,GVA,T2,office-based,office,36,fr
+u00065,Sofia Garcia,sgarcia65,Regional Manager,Management,US Retail,US,JFK,T2,office-based,office,49,es
+u00066,Noor Schneider,nschneider66,Customer Service Agent,Customer Service,Europe Retail,ES,BCN,T1,shift-based,day,46,es
+u00067,Noor Weber,nweber67,Regional Manager,Customer Service,US Retail,US,JFK,T3,shift-based,day,30,en
+u00068,Yusuf Smith,ysmith68,Logistics Associate,Customer Service,Europe Retail,DE,MUC,T3,shift-based,split,42,de
+u00069,Sofia Novak,snovak69,Stock Assistant,Store Operations,US Retail,US,LAX,T2,shift-based,short,25,es
+u00070,Elena Fischer,efischer70,Sales Associate,Customer Service,Europe Retail,GB,LHR,T2,shift-based,day,18,en
+u00071,Lena Moreau,lmoreau71,Assistant Manager,Management,Europe Retail,IT,MXP,T3,office-based,office,25,it
+u00072,Sam Moreau,smoreau72,Cashier,Communications,Europe Retail,CH,GVA,T2,office-based,office,47,de
+u00073,Aiko Martin,amartin73,Senior Customer Service Specialist,Store Operations,Europe Retail,CH,BSL,T1,shift-based,split,34,it
+u00074,Chloe Schneider,cschneider74,Cashier,Customer Service,Europe Retail,CH,GVA,T1,shift-based,day,31,it
+u00075,Luca Silva,lsilva75,Stock Assistant,Store Operations,US Retail,US,MIA,T2,shift-based,long,36,es
+u00076,Aiko Novak,anovak76,Beauty Advisor,Store Operations,Europe Retail,CH,GVA,T3,office-based,office,33,it
+u00077,Mateo Martin,mmartin77,Cashier,Store Operations,Europe Retail,CH,BSL,T3,shift-based,day,43,fr
+u00078,Luca Silva,lsilva78,Customer Service Agent,Customer Service,Europe Retail,CH,BSL,T2,shift-based,long,25,it
+u00079,Priya Kaur,pkaur79,Customer Service Agent,Logistics,Europe Retail,GB,LGW,T2,shift-based,short,32,en
+u00080,Elena Garcia,egarcia80,Store Assistant,Customer Service,Europe Retail,CH,GVA,T3,shift-based,night,31,de
+u00081,Ivan Rossi,irossi81,Customer Service Agent,Customer Service,Europe Retail,DE,MUC,T2,shift-based,day,28,de
+u00082,Yusuf Novak,ynovak82,Customer Service Agent,Store Operations,Europe Retail,FR,NCE,T2,shift-based,day,45,fr
+u00083,Alex Kaur,akaur83,Stock Assistant,Store Operations,US Retail,US,JFK,T2,shift-based,split,33,es
+u00084,Lena Fischer,lfischer84,Senior Sales Associate,Logistics,Europe Retail,CH,ZRH,T2,office-based,office,28,it
+u00085,Elena Dubois,edubois85,Beauty Advisor,Customer Service,Europe Retail,CH,ZRH,T3,shift-based,long,61,fr
+u00086,Lena Bianchi,lbianchi86,Team Lead,Logistics,Europe Retail,FR,NCE,T1,shift-based,long,33,fr
+u00087,Noor Moreau,nmoreau87,Logistics Associate,Store Operations,Europe Retail,ES,MAD,T3,shift-based,night,34,es
+u00088,Elena Rossi,erossi88,Senior Sales Associate,Store Operations,Europe Retail,CH,GVA,T3,shift-based,long,24,de
+u00089,Sam Garcia,sgarcia89,Customer Service Agent,Communications,Europe Retail,FR,CDG,T2,office-based,office,28,fr
+u00090,Noor Kaur,nkaur90,Regional Manager,Management,Europe Retail,IT,FCO,T2,office-based,office,35,it
+u00091,Luca Rossi,lrossi91,Sales Associate,Store Operations,Europe Retail,ES,MAD,T1,shift-based,day,47,es
+u00092,Robin Lopez,rlopez92,Logistics Associate,Customer Service,Europe Retail,GB,LHR,T1,office-based,office,24,en
+u00093,Lena Chen,lchen93,Team Lead,Store Operations,US Retail,US,LAX,T3,shift-based,day,34,en
+u00094,Taylor Moreau,tmoreau94,Cashier,Human Resources,Europe Retail,IT,FCO,T3,office-based,office,25,it
+u00095,Ivan Dubois,idubois95,Stock Assistant,Customer Service,Europe Retail,CH,GVA,T1,shift-based,day,33,de
+u00096,Luca Meier,lmeier96,Sales Associate,Store Operations,Europe Retail,CH,BSL,T3,shift-based,split,35,fr
+u00097,Elena Rossi,erossi00,Store Manager,Management,Europe Retail,DE,FRA,T3,office-based,office,38,de
+u00098,Omar Silva,osilva01,Store Assistant,Customer Service,US Retail,US,MIA,T2,shift-based,day,34,en
+u00099,Ivan Lopez,ilopez02,Logistics Associate,Customer Service,US Retail,US,MIA,T1,shift-based,split,26,en
+u00100,Alex Lopez,alopez03,Senior Sales Associate,Human Resources,Europe Retail,CH,BSL,T1,office-based,office,40,fr
+u00101,Luca Garcia,lgarcia04,Senior Customer Service Specialist,Store Operations,Europe Retail,ES,BCN,T1,office-based,office,26,es
+u00102,Chloe Weber,cweber05,Beauty Advisor,Store Operations,Europe Retail,IT,MXP,T1,shift-based,day,32,it
+u00103,Aiko Meier,ameier06,Beauty Advisor,Store Operations,Europe Retail,CH,GVA,T3,shift-based,short,43,de
+u00104,Taylor Moreau,tmoreau07,Sales Associate,Store Operations,US Retail,US,LAX,T2,shift-based,night,43,es
+u00105,Noor Costa,ncosta08,Customer Service Agent,Customer Service,Europe Retail,DE,FRA,T1,shift-based,night,38,de
+u00106,Lena Moreau,lmoreau09,Cashier,Store Operations,Europe Retail,DE,FRA,T3,shift-based,day,40,de
+u00107,Chloe Brown,cbrown10,Logistics Associate,Store Operations,Europe Retail,FR,NCE,T1,shift-based,split,34,fr
+u00108,Robin Schneider,rschneider11,Logistics Associate,Store Operations,US Retail,US,LAX,T1,shift-based,night,49,es
+u00109,Robin Schneider,rschneider12,Logistics Associate,Customer Service,Europe Retail,GB,LGW,T2,shift-based,day,52,en
+u00110,Luca Smith,lsmith13,Sales Associate,Store Operations,Europe Retail,DE,FRA,T1,shift-based,day,54,de
+u00111,Sam Lopez,slopez14,Senior Customer Service Specialist,Communications,US Retail,US,LAX,T1,office-based,office,30,en
+u00112,Morgan Schneider,mschneider15,Stock Assistant,Store Operations,Europe Retail,DE,MUC,T2,shift-based,short,44,de
+u00113,Mateo Rossi,mrossi16,Stock Assistant,Customer Service,Europe Retail,DE,FRA,T3,office-based,office,38,de
+u00114,Morgan Moreau,mmoreau17,Cashier,Customer Service,Europe Retail,CH,GVA,T1,shift-based,day,33,de
+u00115,Jamie Bianchi,jbianchi18,Shift Supervisor,Store Operations,Europe Retail,DE,FRA,T3,shift-based,day,22,de
+u00116,Noor Silva,nsilva19,Senior Sales Associate,Store Operations,Europe Retail,GB,LGW,T3,shift-based,long,28,en
+u00117,Casey Meier,cmeier20,Assistant Manager,Management,Europe Retail,GB,LGW,T3,office-based,office,18,en
+u00118,Sofia Fischer,sfischer21,Logistics Associate,Store Operations,Europe Retail,IT,FCO,T3,shift-based,day,54,it
+u00119,Casey Chen,cchen22,Sales Associate,Logistics,Europe Retail,DE,FRA,T1,shift-based,short,41,de
+u00120,Luca Dubois,ldubois23,Assistant Manager,Store Operations,Europe Retail,ES,BCN,T1,shift-based,long,18,es
+u00121,Luca Schneider,lschneider24,Store Assistant,Store Operations,Europe Retail,IT,MXP,T3,shift-based,short,49,it
+u00122,Morgan Lopez,mlopez25,Cashier,Customer Service,Europe Retail,ES,MAD,T3,shift-based,night,55,es
+u00123,Elena Rossi,erossi26,Stock Assistant,Customer Service,Europe Retail,ES,MAD,T2,shift-based,night,18,es
+u00124,Elena Dubois,edubois27,Beauty Advisor,Logistics,Europe Retail,CH,GVA,T2,shift-based,day,49,fr
+u00125,Morgan Silva,msilva28,Stock Assistant,Store Operations,Europe Retail,DE,FRA,T1,shift-based,split,27,de
+u00126,Elena Novak,enovak29,Logistics Coordinator,Store Operations,Europe Retail,IT,MXP,T2,shift-based,day,28,it
+u00127,Jordan Costa,jcosta30,Regional Manager,Management,Europe Retail,FR,NCE,T3,office-based,office,39,fr
+u00128,Robin Chen,rchen31,Shift Supervisor,Store Operations,US Retail,US,LAX,T1,shift-based,short,25,es
+u00129,Jordan Keller,jkeller32,Senior Sales Associate,Store Operations,Europe Retail,GB,LGW,T3,shift-based,short,32,en
+u00130,Taylor Weber,tweber33,Team Lead,Store Operations,Europe Retail,FR,NCE,T3,shift-based,split,37,fr
+u00131,Alex Lopez,alopez34,Logistics Associate,Store Operations,Europe Retail,DE,MUC,T1,shift-based,day,36,de
+u00132,Aiko Novak,anovak35,Senior Sales Associate,Customer Service,Europe Retail,FR,CDG,T3,shift-based,day,35,fr
+u00133,Jordan Costa,jcosta36,General Manager,Customer Service,US Retail,US,LAX,T2,shift-based,long,26,es
+u00134,Lena Garcia,lgarcia37,Senior Sales Associate,Communications,Europe Retail,IT,MXP,T1,office-based,office,34,it
+u00135,Sam Weber,sweber38,Store Assistant,Customer Service,US Retail,US,LAX,T2,shift-based,long,31,en
+u00136,Taylor Garcia,tgarcia39,Sales Associate,Customer Service,Europe Retail,IT,MXP,T2,shift-based,night,43,it
+u00137,Elena Novak,enovak40,Senior Customer Service Specialist,Store Operations,Europe Retail,CH,GVA,T2,shift-based,day,28,fr
+u00138,Sofia Weber,sweber41,Sales Associate,Logistics,Europe Retail,CH,BSL,T1,shift-based,day,58,fr
+u00139,Casey Meier,cmeier42,Logistics Associate,Store Operations,Europe Retail,DE,MUC,T3,shift-based,short,64,de
+u00140,Robin Moreau,rmoreau43,Store Assistant,Communications,Europe Retail,FR,CDG,T2,office-based,office,37,fr
+u00141,Mateo Keller,mkeller44,Team Lead,Store Operations,Europe Retail,GB,LGW,T3,shift-based,night,45,en
+u00142,Jamie Kaur,jkaur45,Cashier,Customer Service,Europe Retail,ES,BCN,T2,office-based,office,53,es
+u00143,Robin Smith,rsmith46,Senior Sales Associate,Store Operations,Europe Retail,DE,FRA,T3,office-based,office,26,de
+u00144,Lena Meier,lmeier47,Sales Associate,Customer Service,Europe Retail,IT,FCO,T2,shift-based,night,36,it
+u00145,Robin Novak,rnovak48,Cashier,Store Operations,Europe Retail,CH,BSL,T2,shift-based,day,18,it
+u00146,Jamie Lopez,jlopez49,Stock Assistant,Logistics,Europe Retail,CH,GVA,T3,shift-based,short,43,de
+u00147,Mateo Martin,mmartin50,Beauty Advisor,Store Operations,Europe Retail,ES,MAD,T2,shift-based,day,32,es
+u00148,Jordan Dubois,jdubois51,Senior Sales Associate,Logistics,Europe Retail,IT,FCO,T3,shift-based,long,33,it
+u00149,Chloe Weber,cweber52,Cashier,Store Operations,Europe Retail,FR,NCE,T3,shift-based,short,47,fr
+u00150,Sam Lopez,slopez53,Stock Assistant,Logistics,Europe Retail,ES,MAD,T2,shift-based,night,37,es
+u00151,Yusuf Kaur,ykaur54,Stock Assistant,Store Operations,Europe Retail,FR,NCE,T1,shift-based,long,25,fr
+u00152,Robin Kaur,rkaur55,Beauty Advisor,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,day,24,it
+u00153,Taylor Kaur,tkaur56,Beauty Advisor,Store Operations,Europe Retail,CH,BSL,T3,shift-based,long,38,it
+u00154,Jamie Rossi,jrossi57,Senior Sales Associate,Customer Service,Europe Retail,CH,ZRH,T3,shift-based,long,33,de
+u00155,Noor Schneider,nschneider58,Team Lead,Store Operations,US Retail,US,MIA,T3,shift-based,day,25,en
+u00156,Aiko Rossi,arossi59,Sales Associate,Communications,Europe Retail,CH,BSL,T2,office-based,office,48,de
+u00157,Priya Silva,psilva60,Cashier,Store Operations,Europe Retail,IT,FCO,T1,shift-based,night,31,it
+u00158,Jordan Martin,jmartin61,Stock Assistant,Store Operations,Europe Retail,CH,GVA,T1,shift-based,long,31,it
+u00159,Luca Meier,lmeier62,Senior Sales Associate,Store Operations,Europe Retail,CH,BSL,T2,shift-based,split,25,fr
+u00160,Aiko Smith,asmith63,Regional Manager,Management,Europe Retail,CH,BSL,T2,office-based,office,47,de
+u00161,Ivan Meier,imeier64,Senior Sales Associate,Store Operations,US Retail,US,MIA,T1,office-based,office,37,es
+u00162,Chloe Smith,csmith65,Store Assistant,Human Resources,US Retail,US,JFK,T1,office-based,office,39,en
+u00163,Chloe Chen,cchen66,Sales Associate,Store Operations,US Retail,US,LAX,T1,shift-based,day,28,en
+u00164,Ivan Novak,inovak67,Beauty Advisor,Communications,Europe Retail,DE,FRA,T3,office-based,office,29,de
+u00165,Ivan Smith,ismith68,Beauty Advisor,Store Operations,Europe Retail,IT,MXP,T1,shift-based,day,18,it
+u00166,Yusuf Muller,ymuller69,Beauty Advisor,Store Operations,Europe Retail,FR,CDG,T2,shift-based,day,20,fr
+u00167,Alex Moreau,amoreau70,Cashier,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,long,22,it
+u00168,Yusuf Rossi,yrossi71,Cashier,Customer Service,Europe Retail,CH,ZRH,T3,shift-based,day,27,de
+u00169,Yusuf Lopez,ylopez72,Stock Assistant,Communications,US Retail,US,LAX,T1,office-based,office,45,en
+u00170,Ivan Muller,imuller73,Logistics Associate,Store Operations,US Retail,US,JFK,T1,shift-based,long,28,es
+u00171,Chloe Silva,csilva74,Store Manager,Management,Europe Retail,GB,LHR,T3,office-based,office,18,en
+u00172,Priya Costa,pcosta75,Customer Service Agent,Store Operations,Europe Retail,CH,GVA,T1,shift-based,day,26,de
+u00173,Aiko Silva,asilva76,Logistics Associate,Logistics,US Retail,US,JFK,T3,shift-based,long,32,en
+u00174,Sam Weber,sweber77,Stock Assistant,Store Operations,US Retail,US,JFK,T2,shift-based,day,44,es
+u00175,Casey Costa,ccosta78,Store Manager,Management,US Retail,US,LAX,T2,office-based,office,36,es
+u00176,Ivan Brown,ibrown79,Logistics Associate,Customer Service,Europe Retail,DE,MUC,T3,shift-based,day,42,de
+u00177,Jamie Chen,jchen80,Senior Sales Associate,Logistics,Europe Retail,CH,ZRH,T2,shift-based,day,47,de
+u00178,Mateo Garcia,mgarcia81,Logistics Associate,Logistics,Europe Retail,CH,BSL,T2,shift-based,day,45,fr
+u00179,Robin Schneider,rschneider82,Store Assistant,Customer Service,Europe Retail,DE,FRA,T1,shift-based,short,34,de
+u00180,Omar Weber,oweber83,Store Assistant,Customer Service,Europe Retail,GB,LHR,T3,office-based,office,28,en
+u00181,Mateo Keller,mkeller84,Stock Assistant,Customer Service,Europe Retail,IT,MXP,T1,shift-based,split,28,it
+u00182,Priya Chen,pchen85,Beauty Advisor,Logistics,Europe Retail,CH,GVA,T3,shift-based,day,41,fr
+u00183,Ivan Brown,ibrown86,Senior Sales Associate,Communications,Europe Retail,FR,CDG,T1,office-based,office,30,fr
+u00184,Lena Schneider,lschneider87,Senior Sales Associate,Customer Service,Europe Retail,FR,NCE,T2,shift-based,short,32,fr
+u00185,Chloe Lopez,clopez88,Stock Assistant,Store Operations,US Retail,US,MIA,T1,shift-based,day,58,en
+u00186,Jordan Brown,jbrown89,Stock Assistant,Logistics,Europe Retail,CH,GVA,T3,shift-based,day,51,it
+u00187,Mateo Garcia,mgarcia90,Communications Manager,Store Operations,Europe Retail,DE,MUC,T2,shift-based,day,46,de
+u00188,Chloe Garcia,cgarcia91,Sales Associate,Customer Service,Europe Retail,FR,NCE,T3,shift-based,short,31,fr
+u00189,Noor Lopez,nlopez92,Stock Assistant,Customer Service,Europe Retail,CH,GVA,T1,shift-based,night,25,it
+u00190,Sofia Fischer,sfischer93,Sales Associate,Store Operations,Europe Retail,CH,BSL,T2,shift-based,day,42,de
+u00191,Mateo Smith,msmith94,Logistics Associate,Store Operations,Europe Retail,DE,MUC,T2,shift-based,day,27,de
+u00192,Yusuf Garcia,ygarcia95,Stock Assistant,Customer Service,Europe Retail,ES,MAD,T2,shift-based,day,28,es
+u00193,Alex Costa,acosta96,Assistant Manager,Logistics,Europe Retail,IT,FCO,T2,shift-based,day,43,it
+u00194,Taylor Lopez,tlopez00,Sales Associate,Customer Service,Europe Retail,GB,LHR,T3,shift-based,day,21,en
+u00195,Lena Keller,lkeller01,Shift Supervisor,Logistics,Europe Retail,CH,GVA,T1,office-based,office,37,it
+u00196,Chloe Brown,cbrown02,Cashier,Store Operations,Europe Retail,CH,ZRH,T3,office-based,office,30,fr
+u00197,Robin Lopez,rlopez03,Senior Sales Associate,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,day,38,de
+u00198,Alex Kaur,akaur04,Sales Associate,Customer Service,Europe Retail,ES,BCN,T1,shift-based,day,39,es
+u00199,Elena Muller,emuller05,Cashier,Store Operations,Europe Retail,CH,GVA,T2,shift-based,short,23,de
+u00200,Jordan Meier,jmeier06,Beauty Advisor,Store Operations,Europe Retail,CH,BSL,T3,shift-based,short,37,fr
+u00201,Ivan Novak,inovak07,Cashier,Customer Service,Europe Retail,CH,BSL,T1,office-based,office,54,it
+u00202,Robin Meier,rmeier08,Stock Assistant,Logistics,Europe Retail,ES,MAD,T2,shift-based,long,33,es
+u00203,Jordan Martin,jmartin09,Regional Manager,Logistics,Europe Retail,GB,LHR,T2,shift-based,short,27,en
+u00204,Sofia Silva,ssilva10,Cashier,Customer Service,Europe Retail,DE,FRA,T2,shift-based,day,56,de
+u00205,Casey Novak,cnovak11,Logistics Associate,Customer Service,Europe Retail,GB,LHR,T2,shift-based,short,25,en
+u00206,Sam Weber,sweber12,Shift Supervisor,Store Operations,Europe Retail,IT,MXP,T2,shift-based,long,44,it
+u00207,Omar Silva,osilva13,Beauty Advisor,Store Operations,Europe Retail,CH,ZRH,T1,shift-based,short,35,de
+u00208,Chloe Fischer,cfischer14,Stock Assistant,Store Operations,Europe Retail,DE,FRA,T3,shift-based,night,25,de
+u00209,Omar Brown,obrown15,Store Manager,Logistics,Europe Retail,ES,BCN,T2,shift-based,split,44,es
+u00210,Jordan Martin,jmartin16,Senior Customer Service Specialist,Logistics,Europe Retail,FR,CDG,T1,shift-based,long,44,fr
+u00211,Morgan Fischer,mfischer17,Senior Sales Associate,Store Operations,Europe Retail,GB,LHR,T1,shift-based,long,63,en
+u00212,Alex Costa,acosta18,Senior Sales Associate,Customer Service,Europe Retail,CH,BSL,T1,shift-based,day,53,fr
+u00213,Alex Bianchi,abianchi19,Store Assistant,Communications,Europe Retail,CH,BSL,T3,office-based,office,30,de
+u00214,Alex Garcia,agarcia20,Customer Service Agent,Communications,Europe Retail,DE,MUC,T3,office-based,office,41,de
+u00215,Robin Garcia,rgarcia21,Beauty Advisor,Store Operations,Europe Retail,CH,ZRH,T1,shift-based,day,32,it
+u00216,Robin Chen,rchen22,Team Lead,Customer Service,Europe Retail,FR,NCE,T3,shift-based,split,33,fr
+u00217,Aiko Silva,asilva23,Cashier,Store Operations,Europe Retail,FR,CDG,T1,shift-based,long,33,fr
+u00218,Elena Costa,ecosta24,Store Assistant,Customer Service,US Retail,US,LAX,T3,shift-based,night,43,en
+u00219,Alex Martin,amartin25,Senior Sales Associate,Store Operations,Europe Retail,CH,GVA,T1,shift-based,long,45,fr
+u00220,Luca Fischer,lfischer26,Customer Service Agent,Customer Service,Europe Retail,IT,MXP,T3,shift-based,long,38,it
+u00221,Noor Martin,nmartin27,Beauty Advisor,Customer Service,US Retail,US,JFK,T2,shift-based,split,39,es
+u00222,Casey Rossi,crossi28,Cashier,Store Operations,Europe Retail,GB,LHR,T2,shift-based,long,61,en
+u00223,Alex Meier,ameier29,Cashier,Customer Service,Europe Retail,ES,BCN,T2,shift-based,short,46,es
+u00224,Jordan Weber,jweber30,Beauty Advisor,Logistics,Europe Retail,CH,BSL,T1,shift-based,day,56,de
+u00225,Luca Lopez,llopez31,Team Lead,Store Operations,Europe Retail,GB,LGW,T2,office-based,office,31,en
+u00226,Lena Rossi,lrossi32,Cashier,Customer Service,US Retail,US,JFK,T1,shift-based,split,24,es
+u00227,Sofia Fischer,sfischer33,Customer Service Agent,Store Operations,Europe Retail,ES,MAD,T3,office-based,office,25,es
+u00228,Mateo Weber,mweber34,Sales Associate,Store Operations,Europe Retail,CH,GVA,T2,shift-based,split,24,de
+u00229,Sofia Costa,scosta35,Logistics Associate,Store Operations,Europe Retail,CH,BSL,T2,shift-based,day,32,fr
+u00230,Elena Costa,ecosta36,Shift Supervisor,Customer Service,Europe Retail,GB,LGW,T3,shift-based,split,31,en
+u00231,Sofia Bianchi,sbianchi37,Senior Customer Service Specialist,Customer Service,Europe Retail,DE,FRA,T2,office-based,office,50,de
+u00232,Priya Schneider,pschneider38,Beauty Advisor,Logistics,Europe Retail,ES,BCN,T3,shift-based,long,31,es
+u00233,Robin Bianchi,rbianchi39,Beauty Advisor,Store Operations,Europe Retail,CH,ZRH,T2,shift-based,long,37,de
+u00234,Priya Moreau,pmoreau40,Logistics Associate,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,day,29,it
+u00235,Aiko Brown,abrown41,Logistics Coordinator,Customer Service,Europe Retail,CH,ZRH,T1,shift-based,day,45,de
+u00236,Taylor Brown,tbrown42,Stock Assistant,Customer Service,US Retail,US,MIA,T1,shift-based,long,41,en
+u00237,Yusuf Chen,ychen43,Director of Operations,Management,US Retail,US,LAX,T1,office-based,office,21,en
+u00238,Yusuf Schneider,yschneider44,Store Assistant,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,day,48,fr
+u00239,Chloe Martin,cmartin45,Customer Service Agent,Store Operations,Europe Retail,FR,CDG,T2,shift-based,long,46,fr
+u00240,Sam Fischer,sfischer46,Senior Sales Associate,Communications,Europe Retail,GB,LGW,T1,office-based,office,24,en
+u00241,Jamie Moreau,jmoreau47,Senior Sales Associate,Store Operations,US Retail,US,JFK,T2,shift-based,night,33,en
+u00242,Priya Martin,pmartin48,Shift Supervisor,Customer Service,Europe Retail,CH,GVA,T3,shift-based,day,31,de
+u00243,Priya Moreau,pmoreau49,Store Assistant,Customer Service,Europe Retail,FR,NCE,T2,shift-based,long,40,fr
+u00244,Ivan Brown,ibrown50,Beauty Advisor,Customer Service,Europe Retail,FR,CDG,T2,shift-based,day,40,fr
+u00245,Lena Dubois,ldubois51,Store Assistant,Store Operations,US Retail,US,LAX,T3,shift-based,day,37,en
+u00246,Yusuf Bianchi,ybianchi52,Stock Assistant,Store Operations,US Retail,US,MIA,T3,office-based,office,32,en
+u00247,Elena Moreau,emoreau53,Beauty Advisor,Logistics,Europe Retail,CH,GVA,T3,shift-based,short,33,it
+u00248,Lena Rossi,lrossi54,Team Lead,Store Operations,Europe Retail,ES,BCN,T2,shift-based,short,43,es
+u00249,Lena Weber,lweber55,Beauty Advisor,Store Operations,Europe Retail,DE,FRA,T1,shift-based,day,37,de
+u00250,Sofia Smith,ssmith56,Beauty Advisor,Customer Service,Europe Retail,CH,ZRH,T3,shift-based,short,18,fr
+u00251,Chloe Meier,cmeier57,Assistant Manager,Store Operations,US Retail,US,MIA,T2,shift-based,short,40,es
+u00252,Casey Bianchi,cbianchi58,Store Assistant,Store Operations,Europe Retail,CH,BSL,T1,shift-based,day,42,it
+u00253,Alex Novak,anovak59,Customer Service Agent,Customer Service,US Retail,US,MIA,T1,shift-based,short,29,es
+u00254,Sofia Martin,smartin60,Sales Associate,Human Resources,Europe Retail,CH,GVA,T2,office-based,office,48,it
+u00255,Taylor Meier,tmeier61,Assistant Manager,Store Operations,Europe Retail,FR,CDG,T1,shift-based,day,37,fr
+u00256,Lena Keller,lkeller62,Cashier,Communications,Europe Retail,IT,MXP,T3,office-based,office,23,it
+u00257,Sofia Martin,smartin63,General Manager,Management,Europe Retail,CH,ZRH,T1,office-based,office,42,it
+u00258,Sofia Weber,sweber64,Sales Associate,Store Operations,Europe Retail,DE,FRA,T3,shift-based,day,40,de
+u00259,Chloe Garcia,cgarcia65,Head of Retail Operations,Management,Europe Retail,ES,MAD,T2,office-based,office,40,es
+u00260,Ivan Muller,imuller66,Beauty Advisor,Store Operations,Europe Retail,FR,NCE,T1,shift-based,day,32,fr
+u00261,Ivan Martin,imartin67,Logistics Associate,Human Resources,Europe Retail,FR,CDG,T1,office-based,office,30,fr
+u00262,Taylor Schneider,tschneider68,Customer Service Agent,Store Operations,Europe Retail,DE,FRA,T1,office-based,office,25,de
+u00263,Aiko Brown,abrown69,Beauty Advisor,Human Resources,Europe Retail,FR,NCE,T3,office-based,office,27,fr
+u00264,Luca Martin,lmartin70,Store Assistant,Store Operations,Europe Retail,CH,ZRH,T1,shift-based,day,32,it
+u00265,Chloe Silva,csilva71,HR Manager,Human Resources,Europe Retail,FR,CDG,T2,office-based,office,52,fr
+u00266,Aiko Muller,amuller72,Cashier,Store Operations,Europe Retail,FR,NCE,T1,office-based,office,62,fr
+u00267,Sofia Smith,ssmith73,Stock Assistant,Store Operations,Europe Retail,GB,LHR,T2,office-based,office,45,en
+u00268,Aiko Smith,asmith74,Store Assistant,Store Operations,US Retail,US,LAX,T1,office-based,office,32,es
+u00269,Jordan Muller,jmuller75,Team Lead,Store Operations,Europe Retail,FR,NCE,T3,shift-based,split,18,fr
+u00270,Elena Chen,echen76,Customer Service Agent,Store Operations,Europe Retail,ES,MAD,T3,shift-based,day,37,es
+u00271,Aiko Garcia,agarcia77,Sales Associate,Store Operations,Europe Retail,DE,MUC,T2,shift-based,night,40,de
+u00272,Jordan Weber,jweber78,Regional Manager,Management,Europe Retail,CH,BSL,T3,office-based,office,38,it
+u00273,Mateo Keller,mkeller79,Customer Service Agent,Store Operations,Europe Retail,CH,BSL,T1,shift-based,split,22,fr
+u00274,Jordan Kaur,jkaur80,Team Lead,Customer Service,Europe Retail,CH,ZRH,T2,shift-based,day,19,it
+u00275,Aiko Silva,asilva81,Beauty Advisor,Customer Service,Europe Retail,CH,GVA,T1,shift-based,short,20,it
+u00276,Elena Rossi,erossi82,General Manager,Logistics,Europe Retail,CH,BSL,T1,shift-based,day,41,fr
+u00277,Noor Brown,nbrown83,Customer Service Agent,Logistics,Europe Retail,CH,BSL,T3,shift-based,short,34,fr
+u00278,Sam Costa,scosta84,Store Assistant,Customer Service,Europe Retail,FR,CDG,T2,shift-based,short,32,fr
+u00279,Alex Brown,abrown85,Logistics Associate,Store Operations,US Retail,US,JFK,T2,shift-based,day,24,es
+u00280,Aiko Rossi,arossi86,Team Lead,Store Operations,Europe Retail,CH,GVA,T1,shift-based,split,36,fr
+u00281,Taylor Schneider,tschneider87,Store Assistant,Customer Service,Europe Retail,CH,ZRH,T1,shift-based,day,23,fr
+u00282,Taylor Novak,tnovak88,Customer Service Agent,Store Operations,Europe Retail,CH,ZRH,T2,shift-based,day,39,de
+u00283,Sofia Chen,schen89,Customer Service Agent,Customer Service,Europe Retail,GB,LGW,T3,shift-based,short,42,en
+u00284,Omar Fischer,ofischer90,Customer Service Agent,Communications,Europe Retail,DE,MUC,T1,office-based,office,27,de
+u00285,Lena Rossi,lrossi91,Customer Service Agent,Customer Service,Europe Retail,GB,LGW,T1,shift-based,night,24,en
+u00286,Alex Novak,anovak92,Shift Supervisor,Logistics,Europe Retail,IT,FCO,T2,shift-based,day,29,it
+u00287,Taylor Keller,tkeller93,Head of Retail Operations,Logistics,US Retail,US,JFK,T1,shift-based,night,33,en
+u00288,Robin Dubois,rdubois94,Stock Assistant,Store Operations,Europe Retail,DE,FRA,T2,shift-based,day,28,de
+u00289,Lena Muller,lmuller95,Store Manager,Management,Europe Retail,IT,FCO,T1,office-based,office,41,it
+u00290,Casey Rossi,crossi96,Beauty Advisor,Store Operations,Europe Retail,DE,FRA,T1,shift-based,night,52,de
+u00291,Jordan Moreau,jmoreau00,HR Manager,Management,US Retail,US,LAX,T3,office-based,office,36,en
+u00292,Sofia Chen,schen01,Stock Assistant,Customer Service,Europe Retail,GB,LGW,T1,shift-based,short,47,en
+u00293,Robin Moreau,rmoreau02,Store Assistant,Store Operations,US Retail,US,MIA,T1,shift-based,day,48,en
+u00294,Yusuf Silva,ysilva03,Stock Assistant,Store Operations,Europe Retail,CH,BSL,T3,shift-based,day,28,it
+u00295,Luca Chen,lchen04,Sales Associate,Customer Service,Europe Retail,CH,ZRH,T1,shift-based,short,42,fr
+u00296,Jordan Novak,jnovak05,Beauty Advisor,Store Operations,Europe Retail,CH,ZRH,T1,shift-based,day,26,fr
+u00297,Chloe Smith,csmith06,Logistics Associate,Communications,Europe Retail,CH,BSL,T3,office-based,office,31,de
+u00298,Sofia Weber,sweber07,Logistics Associate,Store Operations,Europe Retail,CH,ZRH,T1,shift-based,long,38,fr
+u00299,Lena Rossi,lrossi08,Stock Assistant,Customer Service,US Retail,US,JFK,T3,shift-based,long,31,en
+u00300,Omar Rossi,orossi09,Team Lead,Store Operations,Europe Retail,ES,MAD,T2,shift-based,day,54,es
+u00301,Omar Novak,onovak10,Senior Sales Associate,Customer Service,Europe Retail,CH,GVA,T1,shift-based,short,18,fr
+u00302,Sam Dubois,sdubois11,Senior Sales Associate,Store Operations,Europe Retail,FR,NCE,T3,shift-based,long,55,fr
+u00303,Jamie Dubois,jdubois12,Cashier,Human Resources,Europe Retail,CH,GVA,T2,office-based,office,30,de
+u00304,Noor Muller,nmuller13,Sales Associate,Customer Service,Europe Retail,CH,BSL,T3,shift-based,night,29,it
+u00305,Robin Martin,rmartin14,Sales Associate,Customer Service,Europe Retail,ES,MAD,T3,shift-based,split,53,es
+u00306,Lena Kaur,lkaur15,Sales Associate,Store Operations,Europe Retail,CH,BSL,T2,shift-based,day,32,fr
+u00307,Alex Brown,abrown16,Customer Service Agent,Communications,Europe Retail,CH,GVA,T1,office-based,office,39,de
+u00308,Yusuf Lopez,ylopez17,General Manager,Communications,Europe Retail,CH,GVA,T2,office-based,office,46,de
+u00309,Morgan Martin,mmartin18,Store Assistant,Store Operations,US Retail,US,JFK,T1,shift-based,day,46,es
+u00310,Alex Smith,asmith19,Cashier,Store Operations,Europe Retail,ES,MAD,T2,shift-based,short,26,es
+u00311,Noor Costa,ncosta20,Store Assistant,Customer Service,Europe Retail,GB,LGW,T2,shift-based,day,30,en
+u00312,Sam Fischer,sfischer21,Logistics Associate,Customer Service,US Retail,US,LAX,T3,shift-based,day,18,en
+u00313,Morgan Fischer,mfischer22,Shift Supervisor,Logistics,Europe Retail,IT,MXP,T2,shift-based,day,37,it
+u00314,Lena Fischer,lfischer23,Stock Assistant,Store Operations,Europe Retail,FR,CDG,T1,shift-based,short,41,fr
+u00315,Priya Bianchi,pbianchi24,Cashier,Store Operations,Europe Retail,CH,BSL,T1,shift-based,day,18,fr
+u00316,Priya Chen,pchen25,Logistics Associate,Store Operations,Europe Retail,ES,BCN,T1,shift-based,short,26,es
+u00317,Chloe Costa,ccosta26,HR Manager,Store Operations,Europe Retail,GB,LGW,T2,shift-based,night,24,en
+u00318,Mateo Moreau,mmoreau27,Sales Associate,Store Operations,US Retail,US,MIA,T2,shift-based,day,29,es
+u00319,Robin Keller,rkeller28,Stock Assistant,Human Resources,Europe Retail,CH,GVA,T1,office-based,office,45,fr
+u00320,Luca Silva,lsilva29,Logistics Coordinator,Logistics,Europe Retail,CH,GVA,T2,shift-based,split,51,fr
+u00321,Priya Brown,pbrown30,Store Assistant,Logistics,Europe Retail,DE,FRA,T3,shift-based,long,36,de
+u00322,Casey Muller,cmuller31,Assistant Manager,Store Operations,US Retail,US,JFK,T1,shift-based,split,28,en
+u00323,Lena Chen,lchen32,Store Assistant,Customer Service,Europe Retail,DE,FRA,T2,shift-based,short,41,de
+u00324,Robin Chen,rchen33,Senior Sales Associate,Customer Service,Europe Retail,CH,ZRH,T1,shift-based,day,40,fr
+u00325,Robin Silva,rsilva34,Logistics Associate,Store Operations,Europe Retail,CH,GVA,T1,shift-based,long,42,it
+u00326,Taylor Moreau,tmoreau35,Senior Sales Associate,Human Resources,Europe Retail,CH,GVA,T2,office-based,office,24,it
+u00327,Alex Costa,acosta36,Stock Assistant,Store Operations,Europe Retail,CH,GVA,T1,office-based,office,46,fr
+u00328,Sofia Silva,ssilva37,Store Assistant,Store Operations,US Retail,US,MIA,T1,shift-based,day,34,en
+u00329,Aiko Meier,ameier38,Stock Assistant,Store Operations,US Retail,US,MIA,T1,shift-based,day,18,en
+u00330,Lena Weber,lweber39,Cashier,Store Operations,US Retail,US,MIA,T2,shift-based,split,47,es
+u00331,Casey Brown,cbrown40,Customer Service Agent,Logistics,Europe Retail,CH,ZRH,T2,shift-based,day,36,fr
+u00332,Jordan Martin,jmartin41,Cashier,Store Operations,Europe Retail,IT,MXP,T2,shift-based,day,32,it
+u00333,Morgan Moreau,mmoreau42,General Manager,Management,Europe Retail,IT,MXP,T2,office-based,office,32,it
+u00334,Luca Fischer,lfischer43,Beauty Advisor,Logistics,Europe Retail,DE,MUC,T2,shift-based,short,20,de
+u00335,Luca Meier,lmeier44,Senior Sales Associate,Human Resources,Europe Retail,CH,GVA,T3,office-based,office,46,fr
+u00336,Noor Keller,nkeller45,Stock Assistant,Store Operations,Europe Retail,GB,LHR,T3,office-based,office,40,en
+u00337,Mateo Schneider,mschneider46,Communications Manager,Logistics,Europe Retail,GB,LGW,T1,shift-based,short,50,en
+u00338,Jamie Garcia,jgarcia47,HR Manager,Customer Service,Europe Retail,FR,NCE,T1,shift-based,day,30,fr
+u00339,Priya Weber,pweber48,Store Assistant,Store Operations,US Retail,US,JFK,T1,shift-based,short,42,es
+u00340,Priya Rossi,prossi49,Beauty Advisor,Customer Service,Europe Retail,CH,GVA,T2,shift-based,split,44,it
+u00341,Noor Kaur,nkaur50,Customer Service Agent,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,day,35,fr
+u00342,Lena Dubois,ldubois51,Customer Service Agent,Store Operations,US Retail,US,LAX,T1,shift-based,long,26,en
+u00343,Alex Rossi,arossi52,Stock Assistant,Store Operations,Europe Retail,GB,LHR,T1,office-based,office,39,en
+u00344,Priya Fischer,pfischer53,Senior Sales Associate,Store Operations,Europe Retail,FR,NCE,T2,shift-based,day,26,fr
+u00345,Priya Silva,psilva54,Regional Manager,Customer Service,Europe Retail,DE,FRA,T1,shift-based,day,37,de
+u00346,Casey Martin,cmartin55,Customer Service Agent,Customer Service,Europe Retail,GB,LHR,T2,shift-based,short,46,en
+u00347,Chloe Silva,csilva56,Logistics Associate,Store Operations,US Retail,US,JFK,T2,shift-based,long,43,en
+u00348,Sam Costa,scosta57,Cashier,Customer Service,US Retail,US,LAX,T3,shift-based,day,49,es
+u00349,Omar Garcia,ogarcia58,Senior Customer Service Specialist,Store Operations,Europe Retail,CH,BSL,T1,office-based,office,20,fr
+u00350,Ivan Garcia,igarcia59,Senior Sales Associate,Store Operations,Europe Retail,GB,LHR,T1,shift-based,short,51,en
+u00351,Mateo Silva,msilva60,Shift Supervisor,Store Operations,Europe Retail,GB,LHR,T3,shift-based,short,43,en
+u00352,Chloe Dubois,cdubois61,Beauty Advisor,Customer Service,US Retail,US,LAX,T3,office-based,office,29,en
+u00353,Yusuf Garcia,ygarcia62,Customer Service Agent,Logistics,Europe Retail,CH,BSL,T3,shift-based,split,39,fr
+u00354,Ivan Smith,ismith63,Cashier,Store Operations,Europe Retail,CH,GVA,T2,shift-based,night,31,it
+u00355,Ivan Keller,ikeller64,Customer Service Agent,Communications,Europe Retail,DE,MUC,T1,office-based,office,41,de
+u00356,Casey Silva,csilva65,Head of Retail Operations,Management,US Retail,US,JFK,T3,office-based,office,43,es
+u00357,Chloe Silva,csilva66,Beauty Advisor,Store Operations,Europe Retail,CH,ZRH,T2,shift-based,long,34,it
+u00358,Alex Meier,ameier67,Sales Associate,Customer Service,Europe Retail,CH,GVA,T1,shift-based,day,28,it
+u00359,Sofia Keller,skeller68,HR Manager,Management,Europe Retail,CH,GVA,T1,office-based,office,34,it
+u00360,Lena Rossi,lrossi69,Senior Customer Service Specialist,Store Operations,US Retail,US,MIA,T1,shift-based,day,34,es
+u00361,Alex Costa,acosta70,Communications Manager,Logistics,Europe Retail,ES,MAD,T3,shift-based,long,37,es
+u00362,Luca Costa,lcosta71,Store Assistant,Human Resources,Europe Retail,CH,BSL,T2,office-based,office,39,it
+u00363,Jamie Weber,jweber72,Cashier,Customer Service,Europe Retail,IT,MXP,T1,shift-based,split,31,it
+u00364,Aiko Fischer,afischer73,Beauty Advisor,Human Resources,Europe Retail,CH,BSL,T2,office-based,office,33,fr
+u00365,Jamie Schneider,jschneider74,Stock Assistant,Store Operations,Europe Retail,ES,MAD,T2,shift-based,day,47,es
+u00366,Priya Meier,pmeier75,Beauty Advisor,Store Operations,Europe Retail,DE,FRA,T1,office-based,office,39,de
+u00367,Taylor Smith,tsmith76,Store Assistant,Store Operations,Europe Retail,IT,MXP,T3,shift-based,night,21,it
+u00368,Robin Lopez,rlopez77,Beauty Advisor,Customer Service,Europe Retail,CH,GVA,T3,shift-based,day,36,it
+u00369,Elena Meier,emeier78,Team Lead,Customer Service,Europe Retail,FR,NCE,T3,shift-based,day,23,fr
+u00370,Jordan Kaur,jkaur79,Store Manager,Store Operations,Europe Retail,IT,FCO,T3,shift-based,day,23,it
+u00371,Omar Bianchi,obianchi80,Sales Associate,Store Operations,US Retail,US,JFK,T1,shift-based,split,18,es
+u00372,Jordan Costa,jcosta81,Logistics Associate,Store Operations,Europe Retail,CH,ZRH,T1,shift-based,day,18,de
+u00373,Chloe Silva,csilva82,Cashier,Communications,Europe Retail,CH,BSL,T2,office-based,office,34,de
+u00374,Yusuf Muller,ymuller83,General Manager,Store Operations,Europe Retail,CH,ZRH,T3,shift-based,day,40,it
+u00375,Morgan Dubois,mdubois84,Logistics Associate,Store Operations,Europe Retail,DE,FRA,T1,shift-based,long,50,de
+u00376,Jordan Fischer,jfischer85,Team Lead,Logistics,Europe Retail,CH,GVA,T3,shift-based,day,18,de
+u00377,Mateo Fischer,mfischer86,Stock Assistant,Logistics,Europe Retail,FR,CDG,T1,shift-based,split,27,fr
+u00378,Sofia Brown,sbrown87,Shift Supervisor,Store Operations,Europe Retail,DE,MUC,T1,shift-based,long,29,de
+u00379,Elena Schneider,eschneider88,Regional Manager,Management,Europe Retail,IT,FCO,T3,office-based,office,36,it
+u00380,Chloe Meier,cmeier89,Cashier,Store Operations,Europe Retail,CH,ZRH,T1,shift-based,day,34,fr
+u00381,Priya Silva,psilva90,Stock Assistant,Store Operations,Europe Retail,CH,ZRH,T1,office-based,office,44,de
+u00382,Jamie Meier,jmeier91,Store Assistant,Store Operations,Europe Retail,IT,MXP,T2,shift-based,long,40,it
+u00383,Omar Novak,onovak92,Store Assistant,Store Operations,Europe Retail,CH,GVA,T3,shift-based,short,47,de
+u00384,Mateo Keller,mkeller93,Customer Service Agent,Logistics,Europe Retail,ES,MAD,T2,shift-based,day,43,es
+u00385,Mateo Moreau,mmoreau94,Stock Assistant,Logistics,Europe Retail,CH,BSL,T3,shift-based,short,43,fr
+u00386,Taylor Moreau,tmoreau95,Sales Associate,Logistics,US Retail,US,MIA,T1,shift-based,long,49,en
+u00387,Sofia Novak,snovak96,Logistics Coordinator,Logistics,Europe Retail,IT,FCO,T3,shift-based,split,39,it
+u00388,Priya Fischer,pfischer00,Shift Supervisor,Store Operations,Europe Retail,DE,MUC,T2,shift-based,day,41,de
+u00389,Alex Chen,achen01,Sales Associate,Human Resources,Europe Retail,IT,MXP,T3,office-based,office,18,it
+u00390,Jamie Chen,jchen02,Cashier,Customer Service,Europe Retail,FR,CDG,T1,shift-based,short,42,fr
+u00391,Elena Rossi,erossi03,Senior Sales Associate,Store Operations,Europe Retail,DE,MUC,T3,shift-based,short,44,de
+u00392,Jordan Brown,jbrown04,Beauty Advisor,Store Operations,US Retail,US,JFK,T2,shift-based,day,28,en
+u00393,Jamie Weber,jweber05,Store Assistant,Customer Service,Europe Retail,CH,GVA,T3,office-based,office,45,de
+u00394,Casey Weber,cweber06,Sales Associate,Store Operations,Europe Retail,CH,ZRH,T2,shift-based,long,57,fr
+u00395,Chloe Schneider,cschneider07,Sales Associate,Store Operations,US Retail,US,MIA,T1,shift-based,short,22,es
+u00396,Morgan Novak,mnovak08,Stock Assistant,Store Operations,Europe Retail,CH,ZRH,T2,shift-based,night,46,fr
+u00397,Ivan Costa,icosta09,HR Manager,Management,Europe Retail,CH,GVA,T1,office-based,office,32,it
+u00398,Yusuf Silva,ysilva10,Sales Associate,Store Operations,US Retail,US,MIA,T1,shift-based,day,58,en
+u00399,Luca Silva,lsilva11,Logistics Associate,Human Resources,Europe Retail,CH,GVA,T3,office-based,office,32,it

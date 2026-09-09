@@ -1,0 +1,17 @@
+# Fast configuration for tests and smoke runs (few restarts, small k range).
+include:
+  - retail_case.yaml
+
+clustering:
+  k: 4
+  k_min: 2
+  k_max: 6
+  n_restarts: 5
+  compare_methods: [fcm, kmeans]
+
+evaluation:
+  stability_runs: 4
+
+output:
+  run_name: quick_test
+  save_figures: false

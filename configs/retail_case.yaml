@@ -1,0 +1,75 @@
+# Retail case (Chapter "Framework Implementation and Evaluation"), run on the
+# synthetic demo data shipped with the repository.
+include:
+  - membership_functions.yaml
+  - fuzzy_rules.yaml
+
+data:
+  root: data/synthetic
+  users_file: users.csv
+  events_file: api_events.csv          # api_events.csv.gz is picked up automatically
+  posts_file: posts.csv
+  comments_file: comments.csv
+  reactions_file: reactions.csv
+  streams_file: streams.csv
+  stream_permissions_file: stream_permissions.csv
+  group_memberships_file: group_memberships.csv
+  consent_file: consent.csv
+  user_id_col: user_id
+
+compliance:
+  direct_identifiers: [full_name, username, email, phone, mobile]
+  content_columns: [text, message, payload, body, content]
+  age_bins: [18, 25, 35, 45, 55, 65, 100]
+  min_group_size: 20
+  require_consent: true
+  pseudonymise: true
+  pseudonym_salt: retail-case
+
+indicators:
+  working_hours: {a: 6, b: 8, c: 16, d: 18}
+
+reduction:
+  enabled: true
+  n_components: 0.90       # variance ratio; capped by max_components
+  max_components: 20
+  # Optional normalisation of the membership variables to equalise their
+  # influence in the distance computation (none | standard | unit_var | minmax).
+  # Membership degrees already lie in [0, 1]; 'standard' equalises variances
+  # and can sharpen the clusters when a few attributes dominate.
+  scaling: none
+  clustering_space: pca    # cluster on the retained components (fuzzy = original vector)
+
+clustering:
+  method: fcm
+  k: 4                     # set to null to use the recommendation of the validity analysis
+  k_min: 2
+  k_max: 10
+  m: 2.0                   # FCM / GK fuzziness
+  # PFCM (Pal et al. 2005): weight a of the FCM term, b of the possibilistic term,
+  # typicality exponent eta and scale of the reference distances gamma_j.
+  # a=b=1, eta=2, scale=1 lets the typicalities pull the centres together on
+  # overlapping behavioural data (coincident clusters); these values keep them apart.
+  eta: 3.0
+  a: 3.0
+  b: 1.0
+  pfcm_gamma_scale: 0.25
+  max_iter: 300
+  tol: 1.0e-5
+  n_restarts: 30           # seeds 1..30
+  seed: 1
+  linkage: ward
+  compare_methods: [fcm, pfcm, gk, kmeans, ahc]
+
+evaluation:
+  fsi_alpha: 1.0
+  max_silhouette_samples: 5000
+  stability_runs: 10
+  expert_ratings_file: null   # e.g. data/expert_ratings.csv with columns cluster,rating
+
+output:
+  root: outputs
+  run_name: retail_case
+  save_figures: true
+  figure_dpi: 160
+  max_plot_points: 2000

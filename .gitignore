@@ -1,10 +1,29 @@
-# Data files
+# Data files (real customer data must never be committed)
 *.csv
 *.json
 *.xlsx
+data/raw/*
+!data/raw/.gitkeep
 
-# IntelliJ / PyCharm
+# Synthetic demo datasets are tracked on purpose
+!data/synthetic/*.csv
+!data/synthetic/*.json
+
+# Pipeline outputs
+outputs/
+legacy/outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# IDEs
 .idea/
-
-# Optional: ignore all contents inside .idea explicitly
-.idea/*
+.vscode/
+.DS_Store

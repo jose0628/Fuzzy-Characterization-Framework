@@ -1,0 +1,45 @@
+# Fuzzy rule-based layer (Section "Fuzzy Rule-Based Layer").
+#
+# Rules encode organisational assumptions and are reviewed with the customer.
+# They are disabled in the retail case (homogeneous population); enable them
+# with `rules.enabled: true` (see retail_case_with_rules.yaml) or `fcf run --rules 1`.
+rules:
+  enabled: false
+  # Membership functions fuzzifying the context attributes used in antecedents.
+  context_terms:
+    hierarchy_score:
+      low:  {family: sigmoidal, a: -1.5, c: 3.0}
+      high: {family: sigmoidal, a: 1.5,  c: 6.0}
+    broadcast_stream_share:
+      low:  {family: trapezoidal, params: [0.0, 0.0, 0.30, 0.50]}
+      high: {family: trapezoidal, params: [0.45, 0.65, 1.0, 1.0]}
+    accessible_streams:
+      small: {family: trapezoidal, params: [0, 0, 4, 8]}
+      large: {family: trapezoidal, params: [6, 10, 1000, 1000]}
+  rules:
+    - name: top_down_communication
+      description: In a top-down model most content originates from few authors; not posting is not disengagement.
+      assumption: Broadcast streams dominate the content reachable by low-hierarchy users.
+      if:
+        - {attribute: hierarchy_score, is: low}
+        - {attribute: broadcast_stream_share, is: high}
+      operator: and
+      then:
+        - {action: scale_weight, features: [posting, commenting], factor: 0.5}
+        - {action: scale_weight, features: [reactions], factor: 1.5}
+
+    - name: opportunity_to_interact
+      description: Users with access to few streams are assessed relative to the content available to them.
+      assumption: Stream permissions bound how much content a user can reach.
+      if:
+        - {attribute: accessible_streams, is: small}
+      then:
+        - {action: relative_indicator, indicators: [topic_accesses_per_month, reactions_per_month, comments_per_month], denominator: accessible_streams}
+
+    - name: operational_rhythm
+      description: Shift-based employees get an active-hours membership function defined over their shift window.
+      assumption: The shift pattern recorded for the employee category reflects the operating hours.
+      if:
+        - {attribute: employee_category, equals: shift-based}
+      then:
+        - {action: set_shift_pattern, from_column: shift_pattern}

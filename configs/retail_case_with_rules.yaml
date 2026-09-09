@@ -1,0 +1,9 @@
+# Same as retail_case.yaml with the fuzzy rule-based layer switched on.
+include:
+  - retail_case.yaml
+
+rules:
+  enabled: true
+
+output:
+  run_name: retail_case_with_rules

@@ -1,0 +1,13 @@
+stream_id,stream_name,stream_type,restricted
+s000,Company News,broadcast,0
+s001,Division Announcements,broadcast,0
+s002,HR Updates,broadcast,0
+s003,Safety & Compliance,broadcast,0
+s004,Store Operations Talk 1,discussion,1
+s005,Customer Service Talk 1,discussion,1
+s006,Logistics Talk 1,discussion,1
+s007,Communications Talk 1,discussion,1
+s008,Human Resources Talk 1,discussion,1
+s009,Management Talk 1,discussion,1
+s010,Store Operations Talk 2,discussion,1
+s011,Customer Service Talk 2,discussion,1

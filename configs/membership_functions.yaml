@@ -1,0 +1,132 @@
+# Membership functions of the fuzzification engine (Table "membership functions").
+#
+# Every scalar indicator is normalised to [0, 1] on the population before
+# fuzzification (log1p + min-max by default, clipped at the 99th percentile),
+# so the parameters below live on the normalised domain unless the feature
+# sets `normalisation: none` (working hours are defined over the hour of the
+# day, age over years).  Terms are linguistic values; each one becomes a fuzzy
+# attribute `<feature>__<term>` of the user vector.
+fuzzification:
+  default_normalisation: log_minmax
+  alpha_levels: [0.2, 0.5, 0.8]
+  shift_pattern_column: shift_pattern
+  # Working-hour windows per shift pattern (Figure "shift membership variants").
+  # (a, b, c, d) trapezoids over the hour of day; the night shift wraps midnight.
+  shift_patterns:
+    office: {a: 6, b: 8, c: 16, d: 18}
+    day:    {a: 6, b: 8, c: 16, d: 18}
+    night:  {a: 20, b: 22, c: 4, d: 6}
+    short:  {a: 8, b: 9, c: 13, d: 14}
+    long:   {a: 6, b: 7, c: 19, d: 20}
+    split:  {windows: [[7, 8, 11.5, 12.5], [13.5, 14.5, 18, 19]]}
+  features:
+    # ---- Interaction intensity -------------------------------------------
+    - name: posting
+      category: Posting
+      indicator: posts_per_month
+      family: triangular
+      rationale: Peak posting behaviours with fading sides; alpha-cut at 0.5 isolates users with at least medium-or-higher posting.
+      terms:
+        low:    {family: trapezoidal, params: [0.0, 0.0, 0.15, 0.40]}
+        medium: {family: triangular,  params: [0.20, 0.50, 0.80]}
+        high:   {family: trapezoidal, params: [0.55, 0.85, 1.0, 1.0]}
+      alpha_cut: {level: 0.5, terms: [high], mode: filter}
+
+    - name: commenting
+      category: Commenting
+      indicator: comments_per_month
+      family: trapezoidal
+      rationale: Clear active commenting windows (plateaus).
+      terms:
+        low:    {family: trapezoidal, params: [0.0, 0.0, 0.15, 0.40]}
+        medium: {family: trapezoidal, params: [0.25, 0.40, 0.60, 0.75]}
+        high:   {family: trapezoidal, params: [0.60, 0.80, 1.0, 1.0]}
+
+    - name: reactions
+      category: Likes and reactions
+      indicator: reactions_per_month
+      family: gaussian
+      rationale: Smooth engagement clustering around a mean level.
+      terms:
+        low:    {family: gaussian, c: 0.0,  sigma: 0.20}
+        medium: {family: gaussian, c: 0.50, sigma: 0.18}
+        high:   {family: gaussian, c: 1.0,  sigma: 0.22}
+
+    - name: chat
+      category: Chat activity
+      indicator: chat_events_per_month
+      family: sigmoidal
+      rationale: Gradual change from low to high chat usage without abrupt cut-offs.
+      terms:
+        low:  {family: sigmoidal, a: -12.0, c: 0.45}
+        high: {family: sigmoidal, a: 12.0,  c: 0.55}
+
+    - name: topic_access
+      category: Topic and stream access
+      indicator: topic_accesses_per_month
+      family: trapezoidal
+      rationale: Operating windows of navigation / consultation of operational content.
+      terms:
+        low:    {family: trapezoidal, params: [0.0, 0.0, 0.20, 0.45]}
+        medium: {family: trapezoidal, params: [0.30, 0.45, 0.60, 0.75]}
+        high:   {family: trapezoidal, params: [0.60, 0.80, 1.0, 1.0]}
+
+    - name: logins
+      category: Working hours (login frequency)
+      indicator: logins_per_month
+      family: trapezoidal
+      rationale: Login frequency, part of the working-hours category.
+      terms:
+        low:  {family: trapezoidal, params: [0.0, 0.0, 0.25, 0.55]}
+        high: {family: trapezoidal, params: [0.45, 0.75, 1.0, 1.0]}
+
+    - name: mobile_channel
+      category: Login activity by channel
+      indicator: mobile_login_share
+      normalisation: none
+      family: trapezoidal
+      rationale: Share of logins from the mobile client.
+      terms:
+        web_oriented:    {family: trapezoidal, params: [0.0, 0.0, 0.30, 0.60]}
+        mobile_oriented: {family: trapezoidal, params: [0.40, 0.70, 1.0, 1.0]}
+
+    # ---- Temporal structure ----------------------------------------------
+    - name: working_hours
+      category: Working hours
+      kind: hour_profile
+      indicator: hour_profile
+      family: trapezoidal
+      rationale: Fixed work shifts; the trapezoid captures start/end transitions (Eq. 2 and 3).
+      window: {a: 6, b: 8, c: 16, d: 18}
+
+    - name: weekend_activity
+      category: Daily and weekly rhythm
+      indicator: weekend_share
+      normalisation: none
+      family: trapezoidal
+      rationale: Share of activity on Saturday and Sunday.
+      terms:
+        weekdays_only: {family: trapezoidal, params: [0.0, 0.0, 0.08, 0.25]}
+        weekend_active: {family: trapezoidal, params: [0.15, 0.30, 1.0, 1.0]}
+
+    - name: weekly_rhythm
+      category: Daily and weekly rhythm
+      indicator: weekday_entropy
+      normalisation: none
+      family: trapezoidal
+      rationale: Regularity of activity across the days of the week.
+      terms:
+        concentrated: {family: trapezoidal, params: [0.0, 0.0, 0.55, 0.80]}
+        spread:       {family: trapezoidal, params: [0.65, 0.90, 1.0, 1.0]}
+
+    # ---- Compliant demographics ------------------------------------------
+    - name: age
+      category: Demographics
+      indicator: age_band_midpoint
+      normalisation: none
+      family: trapezoidal
+      rationale: Privacy-compliant age intervals without ambiguity; only the band midpoint reaches the engine.
+      terms:
+        young:  {family: trapezoidal, params: [0, 0, 25, 35]}
+        mid:    {family: trapezoidal, params: [25, 35, 45, 55]}
+        senior: {family: trapezoidal, params: [45, 55, 120, 120]}
