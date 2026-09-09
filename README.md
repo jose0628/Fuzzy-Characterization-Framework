@@ -22,7 +22,7 @@ segments, without ever reading message content or personal identifiers:
 
 ## Contents
 
-| Path | What it is |
+| Path | What it a00970956<br/> |
 |---|---|
 | `src/fuzzy_characterization/` | The package (see [Architecture](#architecture)) |
 | `configs/` | YAML configurations: membership functions, fuzzy rules, retail case |
